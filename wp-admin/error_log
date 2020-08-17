@@ -1,0 +1,16 @@
+[04-Jul-2020 13:51:51 UTC] WordPress 資料庫錯誤: Table 'u634275416_e22TH.wp_litespeed_img_optm' doesn't exist (由 File_Upload_Upgrader->cleanup, wp_delete_attachment, do_action('delete_attachment'), WP_Hook->do_action, WP_Hook->apply_filters, LiteSpeed\Media->delete_attachment, LiteSpeed\Img_Optm->reset_row 的查詢 SELECT src,post_id FROM `wp_litespeed_img_optm` WHERE post_id = 132 觸發)
+[04-Jul-2020 13:53:11 UTC] WordPress 資料庫錯誤: Table 'u634275416_e22TH.wp_litespeed_img_optm' doesn't exist (由 File_Upload_Upgrader->cleanup, wp_delete_attachment, do_action('delete_attachment'), WP_Hook->do_action, WP_Hook->apply_filters, LiteSpeed\Media->delete_attachment, LiteSpeed\Img_Optm->reset_row 的查詢 SELECT src,post_id FROM `wp_litespeed_img_optm` WHERE post_id = 133 觸發)
+[13-Jul-2020 02:42:37 UTC] WordPress 資料庫錯誤: Table 'u634275416_e22TH.wp_litespeed_img_optm' doesn't exist (由 require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, LiteSpeed\Core->after_user_init, LiteSpeed\Core->proceed_action, LiteSpeed\Router::handler, LiteSpeed\Img_Optm::handler, LiteSpeed\Img_Optm->_rescan 的查詢 SELECT b.post_id, b.meta_value
+			FROM `wp_posts` a
+			LEFT JOIN `wp_postmeta` b ON b.post_id = a.ID
+			LEFT JOIN `wp_litespeed_img_optm` c ON c.post_id = a.ID
+			WHERE a.post_type = 'attachment'
+				AND a.post_status = 'inherit'
+				AND a.post_mime_type IN ('image/jpeg', 'image/png', 'image/gif')
+				AND b.meta_key = '_wp_attachment_metadata'
+				AND c.id IS NOT NULL
+			ORDER BY a.ID
+			LIMIT 0, 500
+			 觸發)
+[13-Jul-2020 02:42:56 UTC] WordPress 資料庫錯誤: Table 'u634275416_e22TH.wp_litespeed_img_optm' doesn't exist (由 require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, LiteSpeed\Core->after_user_init, LiteSpeed\Core->proceed_action, LiteSpeed\Router::handler, LiteSpeed\Img_Optm::handler, LiteSpeed\Img_Optm->_batch_switch 的查詢 SELECT src,post_id FROM `wp_litespeed_img_optm` WHERE optm_status = 9 ORDER BY id LIMIT 0, 500 觸發)
+[13-Jul-2020 02:42:56 UTC] WordPress 資料庫錯誤: Table 'u634275416_e22TH.wp_litespeed_img_optm' doesn't exist (由 require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, LiteSpeed\Core->after_user_init, LiteSpeed\Core->proceed_action, LiteSpeed\Router::handler, LiteSpeed\Img_Optm::handler, LiteSpeed\Img_Optm->_batch_switch 的查詢 SELECT src,post_id FROM `wp_litespeed_img_optm` WHERE optm_status = 9 ORDER BY id LIMIT 500, 1 觸發)

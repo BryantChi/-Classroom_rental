@@ -1,0 +1,2432 @@
+# Translation of Plugins - LiteSpeed Cache - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - LiteSpeed Cache - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-19 08:15:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - LiteSpeed Cache - Stable (latest release)\n"
+
+#: tpl/banner/score.php:117 tpl/dash/dashboard.tpl.php:210
+msgid "PageSpeed Score"
+msgstr "PageSpeed 分數"
+
+#: tpl/banner/score.php:77 tpl/dash/dashboard.tpl.php:153
+msgid "Page Load Time"
+msgstr "頁面載入時間"
+
+#: tpl/inc/check_cache_disabled.php:10
+msgid "To use the caching functions you must have a LiteSpeed web server or be using QUIC.cloud CDN."
+msgstr "這個網站必須採用 LiteSpeed 網頁伺服器或 QUIC.cloud CDN，才能使用快取功能。"
+
+#: tpl/banner/new_version.php:87
+msgid "Maybe Later"
+msgstr "稍後再說"
+
+#: tpl/banner/new_version.php:81
+msgid "Turn On Auto Upgrade"
+msgstr "開啟自動升級"
+
+#: tpl/banner/new_version.php:63
+msgid "New release %s is available now."
+msgstr "目前已有新版本 %s 可供更新。"
+
+#: tpl/banner/new_version.php:59
+msgid "New Version Available!"
+msgstr "已有新版本可供更新。"
+
+#: tpl/banner/score.php:171
+msgid "Created with ❤️ by LiteSpeed team."
+msgstr "LiteSpeed 團隊全❤️開發。"
+
+#: src/activation.cls.php:441
+msgid "Upgraded successfully."
+msgstr "已成功升級。"
+
+#: src/activation.cls.php:432 src/activation.cls.php:437
+msgid "Failed to upgrade."
+msgstr "無法升級。"
+
+#: src/conf.cls.php:727
+msgid "Changed setting successfully."
+msgstr "設定已完成變更。"
+
+#: tpl/crawler/settings-simulation.tpl.php:45
+#: tpl/crawler/settings-simulation.tpl.php:106
+msgid "Cookie Values"
+msgstr "Cookie 值"
+
+#: tpl/crawler/settings-simulation.tpl.php:41
+msgid "Cookie Name"
+msgstr "Cookie 名稱"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:44
+msgid "This page is meant for advanced users."
+msgstr "這個頁面僅供進階使用者使用。"
+
+#: tpl/cache/settings-esi.tpl.php:14
+msgid "WpW: Private Cache vs. Public Cache"
+msgstr "WpW: 私密快取與公開快取的比較"
+
+#: tpl/general/settings_inc.auto_upgrade.tpl.php:15
+msgid "Turn this option ON to have LiteSpeed Cache updated automatically, whenever a new version is released. If OFF, update manually as usual."
+msgstr "開啟這項設定後，每當 LiteSpeed Cache 有新版本發佈，便會自動更新；如果關閉這項設定，則必須手動更新外掛。"
+
+#: src/lang.cls.php:66
+msgid "Automatically Upgrade"
+msgstr "自動升級"
+
+#: tpl/toolbox/settings-debug.tpl.php:53
+msgid "Your IP"
+msgstr "目前的 IP 位址"
+
+#: tpl/toolbox/import_export.tpl.php:49
+msgid "Reset All Settings"
+msgstr "重設全部設定"
+
+#: tpl/toolbox/import_export.tpl.php:50
+msgid "This will reset all settings to default settings."
+msgstr "使用這項功能便會將全部設定重設為預設值。"
+
+#: src/import.cls.php:146
+msgid "Reset successfully."
+msgstr "重設已完成。"
+
+#: tpl/toolbox/import_export.tpl.php:52
+msgid "Are you sure to reset all settings to default settings?"
+msgstr "確定要將全部設定重設為預設值？"
+
+#: tpl/inc/check_cache_disabled.php:22
+msgid "Please enable LiteSpeed Cache in the plugin settings."
+msgstr "請在外掛設定中啟用 [LiteSpeed 快取功能]。"
+
+#. Description of the plugin
+msgid "High-performance page caching and site optimization from LiteSpeed"
+msgstr "LiteSpeed 提供的高效能頁面快取及網站最佳化外掛。"
+
+#: src/img-optm.cls.php:1741
+msgid "Reset the optimized data successfully."
+msgstr "最佳化的資料已完成重設。"
+
+#: src/gui.cls.php:764
+msgid "Update %s now"
+msgstr "立即更新 %s"
+
+#: src/gui.cls.php:759
+msgid "View %1$s version %2$s details"
+msgstr "檢視 %1$s %2$s 的詳細資料"
+
+#: src/gui.cls.php:735
+msgid "Install %s"
+msgstr "安裝 %s"
+
+#: src/img-optm.cls.php:1620
+msgid "Switched images successfully."
+msgstr "圖片已成功切換。"
+
+#: tpl/img_optm/summary.tpl.php:245
+msgid "Saved"
+msgstr "已儲存"
+
+#: src/lang.cls.php:205
+msgid "Included Directories"
+msgstr "包含的目錄"
+
+#: src/lang.cls.php:179
+msgid "Purge All Hooks"
+msgstr "清除全部勾點"
+
+#: src/purge.cls.php:195
+msgid "Purged all caches successfully."
+msgstr "全部快取已成功清除。"
+
+#: src/lang.cls.php:97
+msgid "Force Cache URIs"
+msgstr "強制進行快取的 URI"
+
+#: tpl/cache/network_settings-excludes.tpl.php:7
+#: tpl/cache/settings-excludes.tpl.php:7
+msgid "Exclude Settings"
+msgstr "排除項目設定"
+
+#: tpl/inc/disabled_all.php:5 src/lang.cls.php:224
+msgid "Disable All Features"
+msgstr "停用全部功能"
+
+#: tpl/toolbox/purge.tpl.php:45 src/gui.cls.php:504 src/gui.cls.php:636
+msgid "CSS/JS Cache"
+msgstr "CSS/JS 快取"
+
+#: tpl/banner/slack.php:23
+msgid "Join Us on Slack"
+msgstr "加入我們的 Slack 頻道"
+
+#: tpl/banner/slack.php:14
+msgid "Join the %s community."
+msgstr "加入 %s 社群。"
+
+#: tpl/cdn/settings.tpl.php:270
+msgid "Your API key is used to access %s APIs."
+msgstr "用於存取 %s API 的專屬 API 金鑰。"
+
+#: tpl/cdn/settings.tpl.php:261
+msgid "Your Email address on %s."
+msgstr "%s 帳號的電子郵件地址。"
+
+#: tpl/cdn/settings.tpl.php:252
+msgid "Use %s API functionality."
+msgstr "使用 %s API 提供的功能。"
+
+#: tpl/inc/admin_footer.php:15
+msgid "Join LiteSpeed Slack community"
+msgstr "加入 LiteSpeed Slack 社群"
+
+#: tpl/inc/admin_footer.php:13
+msgid "Visit LSCWP support forum"
+msgstr "造訪 LSCWP 技術支援論壇"
+
+#: tpl/inc/admin_footer.php:8
+msgid "Rate %s on %s"
+msgstr "為 %s 進行評等 (於 %s)"
+
+#: src/crawler.cls.php:751
+msgid "Guest"
+msgstr "客人"
+
+#: tpl/crawler/settings-sitemap.tpl.php:115
+msgid "These options will be invalid when using %s."
+msgstr "使用時這些選項將會無法執行%s."
+
+#: tpl/crawler/settings-sitemap.tpl.php:97
+msgid "Exclude certain Custom Post Types in sitemap."
+msgstr "在 Sitemap 中排除特定自訂內容類型"
+
+#: tpl/crawler/settings-sitemap.tpl.php:57
+msgid "Sitemap Generation"
+msgstr "產生網站地圖檔"
+
+#: tpl/crawler/settings-simulation.tpl.php:23
+msgid "To crawl the site as a logged-in user, enter the user ids to be simulated."
+msgstr "輸入使用者 ids 來模擬使用登入者身分來爬蟲."
+
+#: src/lang.cls.php:218
+msgid "Role Simulation"
+msgstr "腳色模擬"
+
+#: tpl/crawler/summary.tpl.php:166
+msgid "running"
+msgstr "運轉中"
+
+#: tpl/db_optm/manage.tpl.php:175
+msgid "Size"
+msgstr "大小"
+
+#: tpl/dash/dashboard.tpl.php:490 tpl/crawler/summary.tpl.php:99
+msgid "Ended reason"
+msgstr "結束原因"
+
+#: tpl/dash/dashboard.tpl.php:483 tpl/crawler/summary.tpl.php:92
+msgid "Last interval"
+msgstr "最後的間隔"
+
+#: tpl/dash/dashboard.tpl.php:476 tpl/crawler/summary.tpl.php:85
+msgid "Current crawler started at"
+msgstr "目前爬蟲開始於"
+
+#: tpl/crawler/summary.tpl.php:78
+msgid "Run time for previous crawler"
+msgstr "先前爬蟲執行時間"
+
+#: tpl/crawler/summary.tpl.php:72 tpl/crawler/summary.tpl.php:79
+msgid "%d seconds"
+msgstr "%d 秒"
+
+#: tpl/crawler/summary.tpl.php:71
+msgid "Last complete run time for all crawlers"
+msgstr "所有爬蟲上次完成的執行時間"
+
+#: tpl/crawler/summary.tpl.php:57
+msgid "Current sitemap crawl started at"
+msgstr "目前爬蟲對網站地圖開始於"
+
+#: tpl/page_optm/settings_html.tpl.php:62
+msgid "Minify inline JS code."
+msgstr "微小化 inline JS 程式碼"
+
+#: src/lang.cls.php:114
+msgid "Inline JS Minify"
+msgstr "微小化 inline JS"
+
+#: tpl/page_optm/settings_html.tpl.php:49
+msgid "Minify inline CSS code."
+msgstr "微小化 inline CSS 程式碼"
+
+#: src/lang.cls.php:113
+msgid "Inline CSS Minify"
+msgstr "微小化 inline CSS"
+
+#: tpl/cache/settings_inc.object.tpl.php:210
+msgid "Save transients in database when %1$s is %2$s."
+msgstr "當%1$s 等於 %2$s 時儲存短暫的值於資料庫中."
+
+#: src/lang.cls.php:91
+msgid "Store Transients"
+msgstr "儲存短暫的值"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:70
+msgid "If %1$s is %2$s, then %3$s must be populated!"
+msgstr "如果 %1$s 是 %2$s, 那 %3$s 則必須被填寫!"
+
+#: tpl/crawler/settings-general.tpl.php:165
+msgid "Server allowed max value"
+msgstr "伺服器允許的最大值"
+
+#: tpl/crawler/settings-general.tpl.php:160
+msgid "Server enforced value"
+msgstr "伺服器執行數值"
+
+#: tpl/crawler/settings-general.tpl.php:40
+msgid "Server allowed min value"
+msgstr "伺服器允許的最小數值"
+
+#: tpl/cache/more_settings_tip.tpl.php:12
+#: tpl/cache/settings-excludes.tpl.php:62
+#: tpl/cache/settings-excludes.tpl.php:98
+#: tpl/crawler/settings-general.tpl.php:39
+#: tpl/crawler/settings-general.tpl.php:159
+#: tpl/crawler/settings-general.tpl.php:164 tpl/cdn/settings.tpl.php:124
+msgid "NOTE"
+msgstr "注意事項"
+
+#: src/admin-display.cls.php:1077
+msgid "Server variable(s) %s available to override this setting."
+msgstr "伺服器變數 %s 允許覆蓋這些設定."
+
+#: tpl/page_optm/settings_tuning.tpl.php:39
+#: tpl/page_optm/settings_tuning.tpl.php:58
+#: tpl/page_optm/settings_tuning.tpl.php:81
+#: tpl/page_optm/settings_tuning.tpl.php:100
+#: tpl/page_optm/settings_tuning.tpl.php:148
+#: tpl/page_optm/settings_css.tpl.php:94
+#: tpl/page_optm/settings_html.tpl.php:127
+#: tpl/page_optm/settings_media_exc.tpl.php:25 src/admin-display.cls.php:1076
+msgid "API"
+msgstr "API"
+
+#: src/purge.cls.php:313
+msgid "Reset the entire opcode cache successfully."
+msgstr "全部 Opcode 快取 已完成重設。"
+
+#: src/purge.cls.php:301
+msgid "Opcode cache is not enabled."
+msgstr "Opcode 快取並未啟用。"
+
+#: src/import.cls.php:121
+msgid "Imported setting file %s successfully."
+msgstr "設定檔 %s 已成功匯入。"
+
+#: src/import.cls.php:83
+msgid "Import failed due to file error."
+msgstr "由於檔案發生錯誤，因此無法匯入。"
+
+#: tpl/page_optm/settings_css.tpl.php:39 tpl/page_optm/settings_js.tpl.php:35
+msgid "How to Fix Problems Caused by CSS/JS Optimization."
+msgstr "如何修好CSS/JS優化造成的問題"
+
+#: tpl/cache/settings-advanced.tpl.php:50
+msgid "This will generate extra requests to the server, which will increase server load."
+msgstr "這將對伺服器產生額外請求, 同時也將增加伺服器負擔"
+
+#: tpl/cache/settings-advanced.tpl.php:46
+msgid "When a vistor hovers over a page link, preload that page. This will speed up the visit to that link."
+msgstr "當來訪者移動滑鼠至網頁連結, 將預先載入頁面. 將可以加快來拜訪該頁面的速度"
+
+#: src/lang.cls.php:181
+msgid "Instant Click"
+msgstr "Instant Click"
+
+#: tpl/toolbox/purge.tpl.php:64
+msgid "Reset the entire opcode cache"
+msgstr "重設整個 opcode 快取"
+
+#: tpl/toolbox/import_export.tpl.php:46
+msgid "This will import settings from a file and override all current LiteSpeed Cache settings."
+msgstr "使用這項功能便能從檔案匯入並覆寫目前 LiteSpeed Cache 外掛的全部設定。"
+
+#: tpl/toolbox/import_export.tpl.php:41
+msgid "Last imported"
+msgstr "最後匯入時間"
+
+#: tpl/toolbox/import_export.tpl.php:35
+msgid "Import"
+msgstr "匯入"
+
+#: tpl/toolbox/import_export.tpl.php:27
+msgid "Import Settings"
+msgstr "匯入設定"
+
+#: tpl/toolbox/import_export.tpl.php:24
+msgid "This will export all current LiteSpeed Cache settings and save as a file."
+msgstr "使用這項功能便能匯出目前 LiteSpeed Cache 外掛的全部設定並儲存為檔案。"
+
+#: tpl/toolbox/import_export.tpl.php:19
+msgid "Last exported"
+msgstr "最後匯出時間"
+
+#: tpl/toolbox/import_export.tpl.php:14
+msgid "Export"
+msgstr "匯出"
+
+#: tpl/toolbox/import_export.tpl.php:9
+msgid "Export Settings"
+msgstr "匯出設定"
+
+#: tpl/toolbox/entry.tpl.php:10
+msgid "Import / Export"
+msgstr "匯入/匯出"
+
+#: tpl/cache/settings_inc.object.tpl.php:184
+msgid "Use keep-alive connections to speed up cache operations."
+msgstr "用 keep-alive 連線使快取更快執行"
+
+#: tpl/cache/settings_inc.object.tpl.php:144
+msgid "Database to be used"
+msgstr "將被使用的資料庫"
+
+#: src/lang.cls.php:86
+msgid "Redis Database ID"
+msgstr "Redis 資料庫 ID"
+
+#: tpl/cache/settings_inc.object.tpl.php:131
+msgid "Specify the password used when connecting."
+msgstr "定義連線時使用者的密碼"
+
+#: src/lang.cls.php:85
+msgid "Password"
+msgstr "密碼"
+
+#: tpl/cache/settings_inc.object.tpl.php:118
+msgid "Only available when %s is installed."
+msgstr "僅允許於 %s 已安裝時"
+
+#: src/lang.cls.php:84
+msgid "Username"
+msgstr "使用者名稱"
+
+#: tpl/cache/settings_inc.object.tpl.php:78
+msgid "Your %s Hostname or IP address."
+msgstr "你的 %s Hostname 或 IP 位址"
+
+#: src/lang.cls.php:80
+msgid "Method"
+msgstr "方法"
+
+#: src/purge.cls.php:342
+msgid "Purge all object caches successfully."
+msgstr "清除所有物件快取成功"
+
+#: src/purge.cls.php:332
+msgid "Object cache is not enabled."
+msgstr "物件快取未被開啟"
+
+#: tpl/cache/settings_inc.object.tpl.php:197
+msgid "Improve wp-admin speed through caching. (May encounter expired data)"
+msgstr "透過快取改善 wp-admin 速度. (可能遇 data 過期) "
+
+#: src/lang.cls.php:90
+msgid "Cache Wp-Admin"
+msgstr "快取 WP-Admin"
+
+#: src/lang.cls.php:89
+msgid "Persistent Connection"
+msgstr "保持連線"
+
+#: src/lang.cls.php:88
+msgid "Do Not Cache Groups"
+msgstr "不要快取群組"
+
+#: tpl/cache/settings_inc.object.tpl.php:157
+msgid "Groups cached at the network level."
+msgstr "群組快取 network 等級"
+
+#: src/lang.cls.php:87
+msgid "Global Groups"
+msgstr "全域群組"
+
+#: tpl/cache/settings_inc.object.tpl.php:52
+msgid "Connection Test"
+msgstr "連線測試"
+
+#: tpl/cache/settings_inc.object.tpl.php:50
+#: tpl/cache/settings_inc.object.tpl.php:51
+msgid "%s Extension"
+msgstr "%s 擴充模組"
+
+#: tpl/cache/settings_inc.object.tpl.php:47 tpl/crawler/blacklist.tpl.php:32
+#: tpl/crawler/summary.tpl.php:124
+msgid "Status"
+msgstr "狀態"
+
+#: tpl/cache/settings_inc.object.tpl.php:105
+msgid "Default TTL for cached objects."
+msgstr "已快取物件的預設 TTL。"
+
+#: src/lang.cls.php:83
+msgid "Default Object Lifetime"
+msgstr "預設物件時間長"
+
+#: src/lang.cls.php:82
+msgid "Port"
+msgstr "Port"
+
+#: src/lang.cls.php:81
+msgid "Host"
+msgstr "Host"
+
+#: tpl/cache/settings_inc.object.tpl.php:41
+msgid "Use object cache functionality."
+msgstr "使用物件快取功能."
+
+#: tpl/dash/dashboard.tpl.php:361 tpl/toolbox/purge.tpl.php:54
+#: src/gui.cls.php:513 src/gui.cls.php:655 src/lang.cls.php:79
+msgid "Object Cache"
+msgstr "物件快取"
+
+#: tpl/cache/settings_inc.object.tpl.php:20
+msgid "Failed"
+msgstr "失敗"
+
+#: tpl/cache/settings_inc.object.tpl.php:17
+msgid "Passed"
+msgstr "成功"
+
+#: tpl/cache/settings_inc.object.tpl.php:14
+msgid "Not Available"
+msgstr "不允許"
+
+#: tpl/toolbox/purge.tpl.php:55
+msgid "Purge all the object caches"
+msgstr "清除全部物件快取"
+
+#: src/cdn/cloudflare.cls.php:267
+msgid "Failed to communicate with Cloudflare"
+msgstr "與 Cloudflare  連線失敗"
+
+#: src/cdn/cloudflare.cls.php:258
+msgid "Communicated with Cloudflare successfully."
+msgstr "與 Cloudflare 連線成功"
+
+#: src/cdn/cloudflare.cls.php:170
+msgid "No available Cloudflare zone"
+msgstr "沒有可用的 Cloudflare zone"
+
+#: src/cdn/cloudflare.cls.php:155
+msgid "Notified Cloudflare to purge all successfully."
+msgstr "已通知 Cloudflare 清除全部快取。"
+
+#: src/cdn/cloudflare.cls.php:139
+msgid "Cloudflare API is set to off."
+msgstr "Cloudflare  API 已設定關閉"
+
+#: src/cdn/cloudflare.cls.php:121
+msgid "Notified Cloudflare to set development mode to %s successfully."
+msgstr "已通知 Cloudflare 去設定開發模式 %s 成功"
+
+#: tpl/cdn/settings.tpl.php:285
+msgid "Once saved, it will be matched with the current list and completed automatically."
+msgstr "一但儲存, 將會自動媒合現在的清單"
+
+#: tpl/cdn/settings.tpl.php:284
+msgid "You can just type part of the domain."
+msgstr "你可以輸入部分 domain"
+
+#: tpl/cdn/settings.tpl.php:276
+msgid "Domain"
+msgstr "Domain"
+
+#: tpl/cdn/settings.tpl.php:266
+msgid "Global API Key"
+msgstr "全域的 API key"
+
+#: tpl/cdn/settings.tpl.php:253
+msgid "This can be managed from <a %2$s>%1$s</a>."
+msgstr "這項功能可在 <a %2$s>%1$s</a> 進行管理。"
+
+#: src/lang.cls.php:208
+msgid "Cloudflare API"
+msgstr "Cloudflare API"
+
+#: tpl/cdn/manage.tpl.php:77
+msgid "Purge Everything"
+msgstr "清除全部"
+
+#: tpl/cdn/manage.tpl.php:71
+msgid "Cloudflare Cache"
+msgstr "Cloudflare 快取"
+
+#: tpl/cdn/manage.tpl.php:65
+msgid "Development Mode will be turned off automatically after three hours."
+msgstr "開發模式將被於三小時後自動關閉"
+
+#: tpl/cdn/manage.tpl.php:64
+msgid "Temporarily bypass Cloudflare cache. This allows changes to the origin server to be seen in realtime."
+msgstr "暫時旁通 Cloudflare 快取. 這將允許改變原先伺服器立即被看見"
+
+#: tpl/cdn/manage.tpl.php:56
+msgid "Development mode will be automatically turned off in %s."
+msgstr "開發模式將自動關閉於 %s."
+
+#: tpl/cdn/manage.tpl.php:55
+msgid "Current status is %s."
+msgstr "目前狀態是 %s."
+
+#: tpl/cdn/manage.tpl.php:49
+msgid "Current status is %1$s since %2$s."
+msgstr "目前狀態是 %1$s 自從 %2$s."
+
+#: tpl/cdn/manage.tpl.php:40
+msgid "Check Status"
+msgstr "確認狀態"
+
+#: tpl/cdn/manage.tpl.php:37
+msgid "Turn OFF"
+msgstr "關閉"
+
+#: tpl/cdn/manage.tpl.php:34
+msgid "Turn ON"
+msgstr "開啟"
+
+#: tpl/cdn/manage.tpl.php:32
+msgid "Development Mode"
+msgstr "開發模式"
+
+#: tpl/cdn/manage.tpl.php:29
+msgid "Cloudflare Zone"
+msgstr "Cloudflare 區"
+
+#: tpl/cdn/manage.tpl.php:28
+msgid "Cloudflare Domain"
+msgstr "Cloudflare Domain"
+
+#: tpl/cdn/manage.tpl.php:17 src/gui.cls.php:645
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+#: tpl/page_optm/settings_tuning.tpl.php:117
+msgid "Larger numbers will generate fewer files, which is better for achieving higher page scores, but can cause heavy memory usage."
+msgstr "更大的數字將產生少量檔案, 可以獲得更高的分數同時也將使用更高的記憶體."
+
+#: tpl/page_optm/settings_tuning.tpl.php:116
+msgid "Specify the maximum size in megabytes for combined files."
+msgstr "定義結合檔案的最大值, 單位為  megabytes."
+
+#: src/lang.cls.php:132
+msgid "Max Combined File Size"
+msgstr "最大結合檔案的大小"
+
+#: tpl/page_optm/settings_html.tpl.php:106
+msgid "Remove the comments inside of JS/CSS files when minifying."
+msgstr "當微小化時, 移除 JS/CSS 檔案內的註解"
+
+#: src/lang.cls.php:127
+msgid "Remove Comments"
+msgstr "移除註解"
+
+#: tpl/page_optm/settings_html.tpl.php:76
+msgid "For example"
+msgstr "舉例來說"
+
+#: src/lang.cls.php:125
+msgid "DNS Prefetch"
+msgstr "DNS 預先載入"
+
+#: tpl/page_optm/settings_media.tpl.php:29
+msgid "Adding Style to Your Lazy-Loaded Images"
+msgstr "增加你 Lazy_Load 圖片的 Style "
+
+#: tpl/cdn/settings.tpl.php:145
+msgid "Default value"
+msgstr "預設值"
+
+#: tpl/cdn/settings.tpl.php:142
+msgid "Static file type links to be replaced by CDN links."
+msgstr "靜態檔案連結形式將被 CDN 連結取代."
+
+#: tpl/cache/settings_inc.cache_dropquery.tpl.php:15
+msgid "For example, to drop parameters beginning with %s, %s can be used here."
+msgstr "舉例, 欲刪除開始為 %s 的參數, %s 可以被使用在這."
+
+#: src/lang.cls.php:77
+msgid "Drop Query String"
+msgstr "移除 Query String"
+
+#: tpl/cache/settings-advanced.tpl.php:32
+msgid "Enable this option if you are using both HTTP and HTTPS in the same domain and are noticing cache irregularities."
+msgstr "開啟此選項當你 domain 同時使用 HTTP 和 HTTPS 且發現快取不一致時"
+
+#: src/lang.cls.php:180
+msgid "Improve HTTP/HTTPS Compatibility"
+msgstr "改善 HTTP/HTTPS 相容性"
+
+#: tpl/img_optm/summary.tpl.php:372
+msgid "Remove all previous image optimization requests/results, revert completed optimizations, and delete all optimization files."
+msgstr "移除所有先前圖片優化的請求和結果, 完成的優化檔將回朔, 刪除所有優化過的檔案."
+
+#: tpl/img_optm/summary.tpl.php:318
+msgid "Scan for any new unoptimized image thumbnail sizes and resend necessary image optimization requests."
+msgstr "掃描所有新的未優化的檢視圖片大小並重送必須的圖片優化請求."
+
+#: tpl/img_optm/settings.tpl.php:96
+msgid "This will increase the size of optimized files."
+msgstr "這將會增加優化檔案的大小."
+
+#: tpl/img_optm/settings.tpl.php:95
+msgid "Preserve EXIF data (copyright, GPS, comments, keywords, etc) when optimizing."
+msgstr "當優化時預留 EXIF 資料 (copyright, GPS, 留言, 關鍵字, 等等) ."
+
+#: tpl/toolbox/log_viewer.tpl.php:11 tpl/toolbox/log_viewer.tpl.php:28
+msgid "Clear Log"
+msgstr "清除 Log"
+
+#: thirdparty/woocommerce.content.tpl.php:20
+msgid "To test the cart, visit the <a %s>FAQ</a>."
+msgstr "如需進行購物車測試，請參閱<a %s>常見問題集</a>。"
+
+#: src/utility.cls.php:257
+msgid " %s ago"
+msgstr "%s前"
+
+#: src/media.cls.php:345
+msgid "WebP saved %s"
+msgstr "WebP 節省 %s"
+
+#: tpl/toolbox/report.tpl.php:51
+msgid "If you run into any issues, please refer to the report number in your support message."
+msgstr "如果你遇到任何問題, 請參考支援訊息內的問題回報編號"
+
+#: tpl/inc/api_key.php:11
+msgid "This will also generate an API key from LiteSpeed's Server."
+msgstr "這將同時從 LiteSpeed 伺服器產生 API 金鑰."
+
+#: tpl/img_optm/summary.tpl.php:127
+msgid "Last pull initiated by cron at %s."
+msgstr "最後取回仰賴 cron 於 %s 啟動."
+
+#: tpl/img_optm/summary.tpl.php:81
+msgid "Images will be pulled automatically if the cron job is running."
+msgstr "如果 cron job 正在跑, 圖片將會自動被取回."
+
+#: tpl/img_optm/summary.tpl.php:81
+msgid "Only press the button if the pull cron job is disabled."
+msgstr "如果取回的 cron job 是關閉的, 則須按下按鈕取回."
+
+#: tpl/img_optm/summary.tpl.php:88
+msgid "Pull Images"
+msgstr "取回圖檔"
+
+#: tpl/img_optm/summary.tpl.php:112
+msgid "This process is automatic."
+msgstr "這流程式自動的."
+
+#: tpl/dash/dashboard.tpl.php:322 tpl/img_optm/summary.tpl.php:336
+msgid "Last Request"
+msgstr "最後的請求"
+
+#: src/lang.cls.php:28
+msgid "Images failed to pull"
+msgstr "圖檔取回失敗"
+
+#: src/lang.cls.php:29 src/lang.cls.php:30
+msgid "Images failed to fetch"
+msgstr "圖檔存取失敗"
+
+#: tpl/toolbox/entry.tpl.php:19
+msgid "Report"
+msgstr "報告"
+
+#: tpl/toolbox/report.tpl.php:97
+msgid "Send this report to LiteSpeed. Refer to this report number when posting in the WordPress support forum."
+msgstr "寄出此回報至 LiteSpeed. 當發表於 WordPRess support 論壇時參考回報編號"
+
+#: tpl/toolbox/report.tpl.php:46
+msgid "Report date"
+msgstr "報告日期"
+
+#: tpl/toolbox/report.tpl.php:45
+msgid "Report number"
+msgstr "報告編號"
+
+#: thirdparty/woocommerce.content.tpl.php:75
+msgid "Privately cache cart when not empty."
+msgstr "當購物車非空時將被隱私快取."
+
+#: thirdparty/woocommerce.content.tpl.php:70
+msgid "Privately Cache Cart"
+msgstr "隱私低快取購物車"
+
+#: src/media.cls.php:224
+msgid "LiteSpeed Optimization"
+msgstr "LiteSpeed 最佳化"
+
+#: tpl/page_optm/settings_html.tpl.php:143
+msgid "This will also add a preconnect to Google for faster Google Fonts downloading."
+msgstr "這將會同時增加預先和 Google 連線已加速下載 Google Fonts."
+
+#: src/lang.cls.php:134
+msgid "Load Google Fonts Asynchronously"
+msgstr " 非同步載入 Google Fonts"
+
+#: src/lang.cls.php:65
+msgid "Browser Cache TTL"
+msgstr "瀏覽器快取 TTL"
+
+#: tpl/img_optm/summary.tpl.php:340
+msgid "Results can be checked in <a %s>Media Library</a>."
+msgstr "結果將可於<a %s>Media Library</a>確認."
+
+#: tpl/dash/dashboard.tpl.php:46 tpl/img_optm/summary.tpl.php:56
+#: tpl/img_optm/summary.tpl.php:96 tpl/inc/check_cache_disabled.php:42
+#: tpl/cdn/manage.tpl.php:66 src/admin-display.cls.php:1095 src/doc.cls.php:38
+#: src/doc.cls.php:62
+msgid "Learn More"
+msgstr "進一步瞭解"
+
+#: tpl/page_optm/settings_tuning.tpl.php:82
+msgid "Elements with attribute %s in html code will be excluded from moving to top/bottom."
+msgstr "元件和參數 %s 於 html 程式中將會被排除移動到上面/下面"
+
+#: tpl/page_optm/settings_tuning.tpl.php:40
+msgid "Elements with attribute %s in html code will be excluded from moving to top."
+msgstr "元件和參數 %s 於 html 程式中將會被排除移動到上面"
+
+#: src/lang.cls.php:27
+msgid "Images optimized and pulled"
+msgstr "圖片已優化和取回"
+
+#: tpl/dash/dashboard.tpl.php:302 src/lang.cls.php:25
+msgid "Images requested"
+msgstr "圖片已請求"
+
+#: tpl/img_optm/summary.tpl.php:308
+msgid "Images not yet requested"
+msgstr "圖片尚未請求"
+
+#: tpl/img_optm/summary.tpl.php:270 tpl/img_optm/summary.tpl.php:297
+msgid "Images total"
+msgstr "圖片總數"
+
+#: src/img-optm.cls.php:1678
+msgid "Switched to optimized file successfully."
+msgstr "已成功切換至最佳化的檔案。"
+
+#: src/img-optm.cls.php:1671
+msgid "Restored original file successfully."
+msgstr "原始檔案已成功還原。"
+
+#: src/img-optm.cls.php:1655
+msgid "Enabled WebP file successfully."
+msgstr "開啟 WebP 檔案成功"
+
+#: src/img-optm.cls.php:1649
+msgid "Disabled WebP file successfully."
+msgstr "WebP 檔案已成功停用。"
+
+#: tpl/img_optm/settings.media_webp.tpl.php:14
+msgid "Significantly improve load time by replacing images with their optimized %s versions."
+msgstr "靠取代優化過的圖片%s版本來明顯改善載入時間"
+
+#: src/lang.cls.php:185
+msgid "Image WebP Replacement"
+msgstr "WebP 圖片取代"
+
+#: tpl/cache/settings-excludes.tpl.php:127
+msgid "Selected roles will be excluded from cache."
+msgstr "選取的腳色將不會有快取服務"
+
+#: tpl/page_optm/settings_tuning.tpl.php:177
+msgid "Selected roles will be excluded from all optimizations."
+msgstr "選取的腳色將被不服務優化過的檔案"
+
+#: src/lang.cls.php:140
+msgid "Role Excludes"
+msgstr "角色排除"
+
+#: tpl/page_optm/settings_tuning.tpl.php:78
+msgid "Only set to %s when changing the order of combined and uncombined JS is needed."
+msgstr "當轉換結合過和未結合過的JS順序只有設定到 %s 是必須的"
+
+#: tpl/page_optm/settings_tuning.tpl.php:74
+msgid "Load combined JS files before other JS files."
+msgstr "載入結合過的 JS 檔案先於其他 JS 檔案"
+
+#: src/lang.cls.php:130
+msgid "Combined JS Priority"
+msgstr "結合過 JS 的優先權"
+
+#: tpl/page_optm/settings_tuning.tpl.php:36
+msgid "Only set to %s when changing the order of combined and uncombined CSS is needed."
+msgstr "當轉換結合過和未結合過的CSS順序只有設定到 %s 是必須的"
+
+#: tpl/page_optm/settings_tuning.tpl.php:32
+msgid "Load combined CSS files before other CSS files."
+msgstr "載入結合過的 CSS 檔案先於其他 CSS 檔案"
+
+#: src/lang.cls.php:128
+msgid "Combined CSS Priority"
+msgstr "結合過 CSS 的優先權"
+
+#: tpl/page_optm/entry.tpl.php:12 tpl/page_optm/settings_tuning.tpl.php:18
+msgid "Tuning Settings"
+msgstr "微調設定"
+
+#: tpl/cache/settings-excludes.tpl.php:100
+msgid "If the tag slug is not found, the tag will be removed from the list on save."
+msgstr "如果輸入的標籤代稱不正確，儲存設定時便會在清單中移除。"
+
+#: tpl/cache/settings-excludes.tpl.php:64
+msgid "If the category slug is not found, the category will be removed from the list on save."
+msgstr "如果輸入的分類代稱不正確，儲存設定時便會在清單中移除。"
+
+#: tpl/img_optm/summary.tpl.php:78
+msgid "Send Optimization Request"
+msgstr "寄出優化請求"
+
+#: tpl/img_optm/summary.tpl.php:261
+msgid "Image Information"
+msgstr "圖片資訊"
+
+#: tpl/img_optm/summary.tpl.php:330
+msgid "Total Reduction"
+msgstr "總共縮小"
+
+#: tpl/img_optm/summary.tpl.php:327
+msgid "Optimization Summary"
+msgstr "最佳化摘要"
+
+#: tpl/img_optm/entry.tpl.php:22
+msgid "LiteSpeed Cache Image Optimization"
+msgstr "LiteSpeed Cache - 圖片最佳化"
+
+#: tpl/dash/network_dash.tpl.php:27 tpl/dash/dashboard.tpl.php:52
+#: src/gui.cls.php:611 src/admin-display.cls.php:162
+msgid "Image Optimization"
+msgstr "圖片最佳化"
+
+#: tpl/page_optm/settings_js.tpl.php:89
+msgid "Improve compatibility with inline JS by preventing jQuery optimization. (Recommended Setting: %s)"
+msgstr "靠避免 jQuery 優化而改善 inline JS 相容性. (建議設定: %s)"
+
+#: src/lang.cls.php:124
+msgid "Exclude JQuery"
+msgstr "排除 JQuery"
+
+#: tpl/page_optm/settings_tuning.tpl.php:144
+msgid "Listed JS files will not be deferred."
+msgstr "列出的 JS 檔案將不會被延遲載入"
+
+#: src/lang.cls.php:137
+msgid "JS Deferred Excludes"
+msgstr "排除 JS 延遲載入"
+
+#: tpl/page_optm/settings_media.tpl.php:46
+msgid "For example, %s can be used for a transparent placeholder."
+msgstr "舉例來說, %s 可以用在轉換時的佔位符"
+
+#: tpl/page_optm/settings_media.tpl.php:45
+msgid "By default a gray image placeholder %s will be used."
+msgstr "預設將使用灰色的佔位符 %s"
+
+#: tpl/page_optm/settings_media.tpl.php:44
+msgid "This can be predefined in %2$s as well using constant %1$s, with this setting taking priority."
+msgstr "使用一定的 %1$s 這可以被預定義在 %2$s, 和這些設定完成優先順序 "
+
+#: tpl/page_optm/settings_tuning.tpl.php:60
+#: tpl/page_optm/settings_tuning.tpl.php:102
+#: tpl/page_optm/settings_tuning.tpl.php:150
+#: tpl/page_optm/settings_css.tpl.php:95
+#: tpl/page_optm/settings_media_exc.tpl.php:27
+msgid "Elements with attribute %s in html code will be excluded."
+msgstr "元素和屬性 %s 於 html 程式碼中將被排除."
+
+#: tpl/page_optm/settings_tuning.tpl.php:59
+#: tpl/page_optm/settings_tuning.tpl.php:101
+#: tpl/page_optm/settings_tuning.tpl.php:149
+#: tpl/page_optm/settings_media_exc.tpl.php:26
+msgid "Filter %s is supported."
+msgstr "過濾 %s 是支持的. "
+
+#: tpl/page_optm/settings_media_exc.tpl.php:21
+msgid "Listed images will not be lazy loaded."
+msgstr "列出的圖片將不會被 lazy loaded."
+
+#: src/lang.cls.php:147
+msgid "Lazy Load Image Excludes"
+msgstr "排除 Lazy Load 圖片"
+
+#: tpl/cdn/settings.tpl.php:239
+msgid "Improve page load time by loading jQuery from a remote CDN service instead of locally."
+msgstr "靠遠端 CDN 取代本機服務載入 jQuery 改善頁面載入時間"
+
+#: src/lang.cls.php:207
+msgid "Load JQuery Remotely"
+msgstr "遠端載入 jQuery"
+
+#: src/gui.cls.php:473
+msgid "No optimization"
+msgstr "無優化"
+
+#: tpl/page_optm/settings_tuning.tpl.php:164
+msgid "Prevent any optimization of listed pages."
+msgstr "防止任何優化以下列出的頁面."
+
+#: src/lang.cls.php:139
+msgid "URI Excludes"
+msgstr "排除 URI "
+
+#: tpl/page_optm/settings_tuning.tpl.php:96
+msgid "Listed JS files will not be minified/combined."
+msgstr "列出的 JS 檔案將不會被 變小/結合."
+
+#: tpl/page_optm/settings_tuning.tpl.php:55
+#: tpl/page_optm/settings_tuning.tpl.php:97
+#: tpl/page_optm/settings_tuning.tpl.php:145
+#: tpl/page_optm/settings_media_exc.tpl.php:22
+msgid "Both full URLs and partial strings can be used."
+msgstr "完整 URLs 和部分字串可同時被使用."
+
+#: tpl/page_optm/settings_tuning.tpl.php:54
+msgid "Listed CSS files will not be minified/combined."
+msgstr "列出的 CSS 檔案將不會被 變小/結合."
+
+#: tpl/page_optm/entry.tpl.php:32
+msgid "Failed to create Optimizer table. Please follow <a %s>Table Creation guidance from LiteSpeed Wiki</a> to finish setup."
+msgstr "建立優化 table 失敗. 請參考 <a %s>來自 LiteSpeed Wiki 的 建立Table 引導</a> 去完成設定."
+
+#: tpl/page_optm/settings_media.tpl.php:199
+msgid "Load iframes only when they enter the viewport."
+msgstr "當只有他們輸入 viewport 才會載入 iframes. "
+
+#: src/lang.cls.php:162
+msgid "Lazy Load Iframes"
+msgstr "Lazy Load Iframes"
+
+#: tpl/page_optm/settings_media.tpl.php:26
+#: tpl/page_optm/settings_media.tpl.php:200
+msgid "This can improve page loading time by reducing initial HTTP requests."
+msgstr "依靠降低原始的 HTTP 要求, 可以改進頁面載入時間"
+
+#: tpl/page_optm/settings_media.tpl.php:25
+msgid "Load images only when they enter the viewport."
+msgstr "當他們輸入 viewpoint 才會載入圖片."
+
+#: src/lang.cls.php:146
+msgid "Lazy Load Images"
+msgstr "延遲載入圖片"
+
+#: tpl/page_optm/settings_media.tpl.php:12 tpl/page_optm/entry.tpl.php:9
+msgid "Media Settings"
+msgstr "媒體設定"
+
+#: tpl/cache/settings-excludes.tpl.php:37
+msgid "For example, for %s, %s and %s can be used here."
+msgstr "舉例來說, %s, %s 和 %s 可以用在這裡."
+
+#: tpl/cache/settings-esi.tpl.php:103 tpl/cache/settings-purge.tpl.php:110
+#: tpl/cdn/settings.tpl.php:189
+msgid "Wildcard %1$s supported (match zero or more characters). For example, to match %2$s and %3$s, use %4$s."
+msgstr "星號 %1$s 支持 (對應零或多個字元). 舉例來說, , 使用 %4$s 去對應 %2$s 和%3$s."
+
+#: src/admin-display.cls.php:1114
+msgid "To match the beginning, add %s to the beginning of the item."
+msgstr "新增 %s 到項目的最開始, 可以對應開頭."
+
+#: src/admin-display.cls.php:1112
+msgid "For example, for %s, %s can be used here."
+msgstr "舉例來說. %s, %s 可以用在這裡"
+
+#: tpl/db_optm/manage.tpl.php:48
+msgid "Purge all and clean all minified/combined CSS/JS data"
+msgstr "清除及清理全部 CSS/JS 的最小化/已合併的資料。"
+
+#: tpl/db_optm/manage.tpl.php:47
+msgid "Clean CSS/JS Optimizer"
+msgstr "清理 CSS/JS 最佳化"
+
+#: tpl/banner/score.php:167
+msgid "Maybe later"
+msgstr "稍後再說"
+
+#: tpl/banner/score.php:166
+msgid "I've already left a review"
+msgstr "已發佈過評論"
+
+#: tpl/banner/slack.php:9
+msgid "Welcome to LiteSpeed"
+msgstr "歡迎使用 LiteSpeed"
+
+#: src/db-optm.cls.php:208
+msgid "Clean all CSS/JS optimizer data successfully."
+msgstr "全部 CSS/JS 最佳化資料已成功清理。"
+
+#: src/lang.cls.php:138
+msgid "Remove WordPress Emoji"
+msgstr "移除 WordPress Emoji"
+
+#: src/gui.cls.php:481
+msgid "More settings"
+msgstr "更多設定"
+
+#: src/gui.cls.php:462
+msgid "Private cache"
+msgstr "私密快取"
+
+#: src/gui.cls.php:451
+msgid "Non cacheable"
+msgstr "不可快取的"
+
+#: src/gui.cls.php:428
+msgid "Mark this page as "
+msgstr "記號這個頁面"
+
+#: src/gui.cls.php:420
+msgid "Purge this page"
+msgstr "清除這個頁面的快取"
+
+#: tpl/page_optm/settings_js.tpl.php:61
+msgid "Doing so can help reduce resource contention and improve performance."
+msgstr "這麼做可以幫助減低資源使用並增進效能"
+
+#: src/lang.cls.php:122
+msgid "Load JS Deferred"
+msgstr "延遲載入 JS "
+
+#: tpl/page_optm/settings_tuning.tpl.php:131
+msgid "Specify critical CSS rules for above-the-fold content when enabling %s."
+msgstr "當開啟 %s 會定義嚴格的 CSS 規則去符合開啟網頁並自動載入內容"
+
+#: src/lang.cls.php:136
+msgid "Critical CSS Rules"
+msgstr "嚴格的 CSS 規則"
+
+#: tpl/page_optm/settings_tuning.tpl.php:131
+#: tpl/page_optm/settings_css.tpl.php:110 src/lang.cls.php:115
+msgid "Load CSS Asynchronously"
+msgstr "以非同步方式載入 CSS"
+
+#: src/lang.cls.php:135
+msgid "Remove Google Fonts"
+msgstr "移除 Google Fonts"
+
+#: tpl/page_optm/settings_media.tpl.php:214
+#: tpl/page_optm/settings_css.tpl.php:91 tpl/page_optm/settings_js.tpl.php:62
+#: tpl/page_optm/settings_html.tpl.php:107
+#: tpl/page_optm/settings_html.tpl.php:121
+#: tpl/page_optm/settings_html.tpl.php:171
+msgid "This can improve your speed score in services like Pingdom, GTmetrix and PageSpeed."
+msgstr "這可以改善你的網頁載入速度分數像是: Pingdom, GTmetrix, PageSpeed."
+
+#: tpl/page_optm/settings_html.tpl.php:120
+msgid "Remove query strings from static resources."
+msgstr "移除靜態資源的 query strings."
+
+#: src/lang.cls.php:133
+msgid "Remove Query Strings"
+msgstr "移除 Query Strings"
+
+#: tpl/cache/settings_inc.exclude_useragent.tpl.php:14
+msgid "user agents"
+msgstr "使用者代理程式"
+
+#: tpl/cache/settings_inc.exclude_cookies.tpl.php:14
+msgid "cookies"
+msgstr "Cookie"
+
+#: tpl/cache/settings_inc.browser.tpl.php:27
+msgid "Browser caching stores static files locally in the user's browser. Turn on this setting to reduce repeated requests for static files."
+msgstr "瀏覽器快取儲存靜態檔案於使用者本身瀏覽器內. 開啟此設定去降低重複的靜態檔案存取."
+
+#: tpl/dash/dashboard.tpl.php:362 src/lang.cls.php:58
+msgid "Browser Cache"
+msgstr "瀏覽器快取"
+
+#: tpl/cache/settings-excludes.tpl.php:94
+msgid "tags"
+msgstr "標籤"
+
+#: src/lang.cls.php:102
+msgid "Do Not Cache Tags"
+msgstr "不進行快取的標籤"
+
+#: tpl/cache/settings-excludes.tpl.php:65
+#: tpl/cache/settings-excludes.tpl.php:101
+msgid "To exclude %1$s, insert %2$s."
+msgstr "如需排除 %1$s，請輸入代稱 %2$s。"
+
+#: tpl/cache/settings-excludes.tpl.php:58
+msgid "categories"
+msgstr "分類"
+
+#: src/lang.cls.php:101
+msgid "Do Not Cache Categories"
+msgstr "不進行快取的分類"
+
+#: src/lang.cls.php:100
+msgid "Do Not Cache Query Strings"
+msgstr "不進行快取的查詢字串"
+
+#: tpl/cache/settings-excludes.tpl.php:21
+msgid "Paths containing these strings will not be cached."
+msgstr "路徑包含這些字串將不會被快取"
+
+#: src/lang.cls.php:99
+msgid "Do Not Cache URIs"
+msgstr "不進行快取的 URI"
+
+#: src/admin-display.cls.php:1116 src/doc.cls.php:49
+msgid "One per line."
+msgstr "每行輸入一項資料。"
+
+#: tpl/cache/settings-cache.tpl.php:108
+msgid "URI Paths containing these strings will NOT be cached as public."
+msgstr "URI 路徑包含這些字串將不會被公共快取"
+
+#: src/lang.cls.php:76
+msgid "Private Cached URIs"
+msgstr "隱私快取 URIs"
+
+#: tpl/cdn/settings.tpl.php:225
+msgid "Paths containing these strings will not be served from the CDN."
+msgstr "路徑包含這些字串將不會被 CDN 服務"
+
+#: src/lang.cls.php:206
+msgid "Exclude Path"
+msgstr "排除的路徑"
+
+#: tpl/cdn/settings.tpl.php:144
+msgid "This will affect all tags containing attributes: %s %s %s."
+msgstr "這個將影響所有標籤包含參數: %s %s %s."
+
+#: tpl/cdn/settings.tpl.php:148 src/lang.cls.php:202
+msgid "Include File Types"
+msgstr "包含檔案類型"
+
+#: src/lang.cls.php:201
+msgid "Include JS"
+msgstr "包含 JS"
+
+#: src/lang.cls.php:200
+msgid "Include CSS"
+msgstr "包含 CSS"
+
+#: src/lang.cls.php:199
+msgid "Include Images"
+msgstr "包含圖片"
+
+#: tpl/cdn/settings.tpl.php:74
+msgid "CDN URL to be used. For example, %s"
+msgstr "CDN URL 使用. 範例 %s"
+
+#: src/lang.cls.php:198
+msgid "CDN URL"
+msgstr "CDN 網址"
+
+#: tpl/cdn/settings.tpl.php:188
+msgid "Site URL to be served through the CDN. Beginning with %1$s. For example, %2$s."
+msgstr "透過 CDN 服務網站 URL. 開頭為 %1$s. 範例 %2$s."
+
+#: src/lang.cls.php:204
+msgid "Original URLs"
+msgstr "原始網址"
+
+#: tpl/cdn/settings.tpl.php:48
+msgid "Enable Content Delivery Network use."
+msgstr "啟用內容傳遞網路供網站使用。"
+
+#: tpl/cdn/entry.tpl.php:6 tpl/cdn/settings.tpl.php:21
+msgid "CDN Settings"
+msgstr "CDN 設定"
+
+#: tpl/cdn/settings.tpl.php:253 src/admin-display.cls.php:160
+msgid "CDN"
+msgstr "CDN"
+
+#: tpl/page_optm/settings_media.tpl.php:159
+#: tpl/page_optm/settings_tuning.tpl.php:33
+#: tpl/page_optm/settings_tuning.tpl.php:75
+#: tpl/page_optm/settings_css.tpl.php:109
+#: tpl/page_optm/settings_css.tpl.php:124 tpl/cache/settings-cache.tpl.php:19
+#: tpl/cache/settings_inc.object.tpl.php:210
+#: tpl/toolbox/settings-debug.tpl.php:34 tpl/cdn/settings.tpl.php:49
+#: tpl/cdn/settings.tpl.php:237 src/admin-display.cls.php:796
+#: src/admin-display.cls.php:830 src/admin-display.cls.php:883
+msgid "OFF"
+msgstr "關閉"
+
+#: tpl/page_optm/settings_media.tpl.php:156
+#: tpl/page_optm/settings_tuning.tpl.php:36
+#: tpl/page_optm/settings_tuning.tpl.php:78
+#: tpl/page_optm/settings_css.tpl.php:54 tpl/page_optm/settings_css.tpl.php:92
+#: tpl/page_optm/settings_css.tpl.php:109
+#: tpl/page_optm/settings_css.tpl.php:110 tpl/page_optm/settings_js.tpl.php:89
+#: tpl/cache/settings-cache.tpl.php:19
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:70
+#: tpl/toolbox/settings-debug.tpl.php:34 tpl/cdn/settings.tpl.php:49
+#: src/admin-display.cls.php:795 src/admin-display.cls.php:831
+#: src/admin-display.cls.php:883
+msgid "ON"
+msgstr "開啟"
+
+#: src/purge.cls.php:284
+msgid "Notified LiteSpeed Web Server to purge CSS/JS entries."
+msgstr "已通知 LiteSpeed 網頁伺服器清除 CSS/JS 項目。"
+
+#: tpl/page_optm/settings_html.tpl.php:36
+msgid "Minify HTML content."
+msgstr "微小化 HTML 內容."
+
+#: src/lang.cls.php:112
+msgid "HTML Minify"
+msgstr "HTML 微小化"
+
+#: src/lang.cls.php:111
+msgid "CSS/JS Cache TTL"
+msgstr "CSS/JS 快取 TTL"
+
+#: src/lang.cls.php:131
+msgid "JS Excludes"
+msgstr "排除 JS"
+
+#: tpl/page_optm/settings_js.tpl.php:48
+msgid "Pre-send internal JS files to the browser before they are requested. (Requires the HTTP/2 protocol)"
+msgstr "被要求讀取前預先寄出內部 JS 檔案到瀏覽器. (須支持 HTTP/2 協定)"
+
+#: src/lang.cls.php:110
+msgid "JS HTTP/2 Push"
+msgstr "JS HTTP/2 Push"
+
+#: tpl/page_optm/settings_js.tpl.php:34
+msgid "Combine JS files."
+msgstr "結合 JS 檔案"
+
+#: tpl/page_optm/settings_js.tpl.php:92 src/lang.cls.php:109
+msgid "JS Combine"
+msgstr "JS 結合 "
+
+#: tpl/page_optm/settings_js.tpl.php:21
+msgid "Minify JS files."
+msgstr "使 JS 檔案變小"
+
+#: src/lang.cls.php:108
+msgid "JS Minify"
+msgstr "JS 變小"
+
+#: src/lang.cls.php:129
+msgid "CSS Excludes"
+msgstr "排除 CSS"
+
+#: tpl/page_optm/settings_css.tpl.php:71
+msgid "Pre-send internal CSS files to the browser before they are requested. (Requires the HTTP/2 protocol)"
+msgstr "被要求前, 預先寄出內部 CSS 檔案到網頁. (需使用 HTTP/2 協定)"
+
+#: src/lang.cls.php:107
+msgid "CSS HTTP/2 Push"
+msgstr "CSS HTTP/2 推播"
+
+#: tpl/page_optm/settings_css.tpl.php:38
+msgid "Combine CSS files."
+msgstr "結合 CSS 檔案"
+
+#: src/lang.cls.php:105
+msgid "CSS Combine"
+msgstr "CSS 結合 "
+
+#: tpl/page_optm/settings_css.tpl.php:25
+msgid "Minify CSS files."
+msgstr "使 CSS 檔案變小"
+
+#: src/lang.cls.php:104
+msgid "CSS Minify"
+msgstr "使 CSS 變小 "
+
+#: tpl/page_optm/entry.tpl.php:38
+msgid "Please test thoroughly when enabling any option in this list. After changing Minify/Combine settings, please do a Purge All action."
+msgstr "請完整測試當開啟任何清單中的選項. 開啟 優化/結合 設定請執行 Purge All"
+
+#: tpl/toolbox/purge.tpl.php:46
+msgid "This will purge all minified/combined CSS/JS entries only"
+msgstr "這項功能僅會清除已最小化/已合併的 CSS/JS 項目。"
+
+#: tpl/page_optm/entry.tpl.php:8 tpl/page_optm/settings_html.tpl.php:7
+msgid "Optimization Settings"
+msgstr "優化的設定"
+
+#: tpl/toolbox/purge.tpl.php:34
+msgid "Purge error pages, including 500 pages"
+msgstr "這項功能會清除 500 錯誤頁面快取。"
+
+#: tpl/toolbox/purge.tpl.php:33
+msgid "Purge 500 Error"
+msgstr "清除 500 錯誤快取"
+
+#: tpl/toolbox/purge.tpl.php:20 tpl/toolbox/purge.tpl.php:26
+#: tpl/toolbox/purge.tpl.php:32
+msgid "Purge error pages, including %s pages"
+msgstr "這項功能會清除 %s 錯誤頁面快取。"
+
+#: tpl/toolbox/purge.tpl.php:19 tpl/toolbox/purge.tpl.php:25
+#: tpl/toolbox/purge.tpl.php:31
+msgid "Purge %s Error"
+msgstr "清除 %s 錯誤快取"
+
+#: tpl/db_optm/manage.tpl.php:78
+msgid "Database Optimizer"
+msgstr "資料庫最佳化"
+
+#: tpl/db_optm/manage.tpl.php:44
+msgid "Optimize all tables in your database"
+msgstr "最佳化網站資料庫中的全部資料表。"
+
+#: tpl/db_optm/manage.tpl.php:43
+msgid "Optimize Tables"
+msgstr "最佳化資料表"
+
+#: tpl/db_optm/manage.tpl.php:40
+msgid "Clean all transient options"
+msgstr "清理全部暫時性選項。"
+
+#: tpl/db_optm/manage.tpl.php:39
+msgid "All Transients"
+msgstr "全部暫時性選項"
+
+#: tpl/db_optm/manage.tpl.php:36
+msgid "Clean expired transient options"
+msgstr "清理過期的暫時性選項。"
+
+#: tpl/db_optm/manage.tpl.php:35
+msgid "Expired Transients"
+msgstr "過期的暫時性選項"
+
+#: tpl/db_optm/manage.tpl.php:32
+msgid "Clean all trackbacks and pingbacks"
+msgstr "清理全部引用通知及自動引用通知。"
+
+#: tpl/db_optm/manage.tpl.php:31
+msgid "Trackbacks/Pingbacks"
+msgstr "引用通知/自動引用通知"
+
+#: tpl/db_optm/manage.tpl.php:28
+msgid "Clean all trashed comments"
+msgstr "清理回收桶中的全部留言。"
+
+#: tpl/db_optm/manage.tpl.php:27
+msgid "Trashed Comments"
+msgstr "回收桶中的留言"
+
+#: tpl/db_optm/manage.tpl.php:24
+msgid "Clean all spam comments"
+msgstr "清理全部垃圾留言。"
+
+#: tpl/db_optm/manage.tpl.php:23
+msgid "Spam Comments"
+msgstr "垃圾留言"
+
+#: tpl/db_optm/manage.tpl.php:20
+msgid "Clean all trashed posts and pages"
+msgstr "清理回收桶中的全部文章及頁面。"
+
+#: tpl/db_optm/manage.tpl.php:19
+msgid "Trashed Posts"
+msgstr "回收桶中的文章"
+
+#: tpl/db_optm/manage.tpl.php:16
+msgid "Clean all auto saved drafts"
+msgstr "清理全部自動儲存的草稿。"
+
+#: tpl/db_optm/manage.tpl.php:15
+msgid "Auto Drafts"
+msgstr "自動儲存的草稿"
+
+#: tpl/db_optm/manage.tpl.php:12
+msgid "Clean all post revisions"
+msgstr "清理全部文章內容修訂。"
+
+#: tpl/db_optm/manage.tpl.php:11
+msgid "Post Revisions"
+msgstr "文章內容修訂"
+
+#: tpl/db_optm/manage.tpl.php:7
+msgid "Clean All"
+msgstr "清理全部"
+
+#: src/db-optm.cls.php:201
+msgid "Optimized all tables."
+msgstr "優化所有 tables"
+
+#: src/db-optm.cls.php:191
+msgid "Clean all transients successfully."
+msgstr "全部暫時性選項已成功清理。"
+
+#: src/db-optm.cls.php:187
+msgid "Clean expired transients successfully."
+msgstr "過期的暫時性選項已成功清理。"
+
+#: src/db-optm.cls.php:183
+msgid "Clean trackbacks and pingbacks successfully."
+msgstr "引用通知及自動引用通知已成功清理。"
+
+#: src/db-optm.cls.php:179
+msgid "Clean trashed comments successfully."
+msgstr "回收桶中的留言已成功清理。"
+
+#: src/db-optm.cls.php:175
+msgid "Clean spam comments successfully."
+msgstr "垃圾留言已成功清理。"
+
+#: src/db-optm.cls.php:171
+msgid "Clean trashed posts and pages successfully."
+msgstr "回收桶中的文章及頁面已成功清理。"
+
+#: src/db-optm.cls.php:167
+msgid "Clean auto drafts successfully."
+msgstr "自動儲存的草稿已成功清理。"
+
+#: src/db-optm.cls.php:163
+msgid "Clean post revisions successfully."
+msgstr "文章內容修訂已成功清理。"
+
+#: src/db-optm.cls.php:136
+msgid "Clean all successfully."
+msgstr "全部項目已成功清理。"
+
+#: src/lang.cls.php:60
+msgid "Default Private Cache TTL"
+msgstr "私密快取預設 TTL"
+
+#: tpl/cache/settings-esi.tpl.php:131
+msgid "If your site contains public content that certain user roles can see but other roles cannot, you can specify a Vary Group for those user roles. For example, specifying an administrator vary group allows there to be a separate publicly-cached page tailored to administrators (with “edit” links, etc), while all other user roles see the default public page."
+msgstr "如果你網站包含公開內容, 你可以設定 Vary Group 區分使用者角色. 舉例, 定義管理者 very group 允許區分公開快取頁面屬於管理者, 而其他使用者仍看到預設頁面. "
+
+#: src/lang.cls.php:178
+msgid "Vary Group"
+msgstr "Vary Group"
+
+#: src/lang.cls.php:176
+msgid "Cache Comment Form"
+msgstr "快取留言清單"
+
+#: src/lang.cls.php:175
+msgid "Cache Admin Bar"
+msgstr "快取 Admin Bar"
+
+#: tpl/cache/settings-esi.tpl.php:13
+msgid "ESI allows you to designate parts of your dynamic page as separate fragments that are then assembled together to make the whole page. In other words, ESI lets you “punch holes” in a page, and then fill those holes with content that may be cached privately, cached publicly with its own TTL, or not cached at all."
+msgstr "ESI 允許你定義動態頁面區分欄位在整合成一個完整頁面. 換句話說, ESI 讓你幫頁面打動, 然後用隱私快取填滿這些內容, 公開快取用 TTL或是不快取"
+
+#: tpl/cache/settings-esi.tpl.php:12
+msgid "With ESI (Edge Side Includes), pages may be served from cache for logged-in users."
+msgstr "有 ESI (Edge Side Includes), 登入的使用者也可以享有頁面快取"
+
+#: tpl/esi_widget_edit.php:47
+msgid "Private"
+msgstr "隱私"
+
+#: tpl/esi_widget_edit.php:46
+msgid "Public"
+msgstr "公開"
+
+#: tpl/cache/network_settings-purge.tpl.php:7
+#: tpl/cache/settings-purge.tpl.php:7
+msgid "Purge Settings"
+msgstr "清除設定"
+
+#: src/lang.cls.php:73
+msgid "Cache PHP Resources"
+msgstr "快取 PHP 資源"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:70 src/lang.cls.php:74
+msgid "Cache Mobile"
+msgstr "Mobile 快取"
+
+#: tpl/toolbox/settings-debug.tpl.php:72
+msgid "Advanced level will log more details."
+msgstr "進階等級將紀錄更詳細"
+
+#: tpl/toolbox/settings-debug.tpl.php:70
+msgid "Basic"
+msgstr "基本"
+
+#: tpl/crawler/settings-general.tpl.php:154
+msgid "The maximum average server load allowed while crawling. The number of crawler threads in use will be actively reduced until average server load falls under this limit. If this cannot be achieved with a single thread, the current crawler run will be terminated."
+msgstr "伺服器最大平均負載允許爬網頁. 爬蟲執行程序將自動減少直到伺服器平均負載低於限制. 如果這無法用單一個程序完成, 那現有的爬蟲將會被終止"
+
+#: src/lang.cls.php:71
+msgid "Cache Login Page"
+msgstr "快取登入頁面"
+
+#: tpl/cache/settings-cache.tpl.php:74
+msgid "Cache requests made by WordPress REST API calls."
+msgstr "快取需求來自 WordPress REST API. "
+
+#: src/lang.cls.php:70
+msgid "Cache REST API"
+msgstr "快取 REST API"
+
+#: tpl/cache/settings-cache.tpl.php:61
+msgid "Privately cache commenters that have pending comments. Disabling this option will serve non-cacheable pages to commenters. (LSWS %s required)"
+msgstr "私有快取留言者有待審核的留言. 關閉此功能將服務留言者於無快取的頁面. (LSWS %s 必須的)"
+
+#: src/lang.cls.php:69
+msgid "Cache Commenters"
+msgstr "快取留言者"
+
+#: tpl/cache/settings-cache.tpl.php:48
+msgid "Privately cache frontend pages for logged-in users. (LSWS %s required)"
+msgstr "私密快取已登入使用者的前端頁面 (需要 LSWS %s)"
+
+#: src/lang.cls.php:68
+msgid "Cache Logged-in Users"
+msgstr "快取登入使用者"
+
+#: tpl/cache/network_settings-cache.tpl.php:7
+#: tpl/cache/settings-cache.tpl.php:7
+msgid "Cache Control Settings"
+msgstr "快取控制設定"
+
+#: tpl/cache/entry.tpl.php:10
+msgid "ESI"
+msgstr "ESI"
+
+#: tpl/cache/entry.tpl.php:9 tpl/cache/entry_network.tpl.php:8
+msgid "Excludes"
+msgstr "排除項目"
+
+#: tpl/cache/entry.tpl.php:8 tpl/cache/entry_network.tpl.php:7
+#: tpl/toolbox/entry.tpl.php:6 tpl/toolbox/purge.tpl.php:126
+msgid "Purge"
+msgstr "清除"
+
+#: tpl/cache/entry.tpl.php:6 tpl/cache/entry_network.tpl.php:6
+#: src/admin-display.cls.php:158
+msgid "Cache"
+msgstr "快取"
+
+#: thirdparty/woocommerce.tab.tpl.php:3
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: tpl/cache/settings-purge.tpl.php:131
+msgid "Current server time is %s."
+msgstr "現在伺服器時間為 %s."
+
+#: tpl/cache/settings-purge.tpl.php:130
+msgid "Specify the time to purge the \"%s\" list."
+msgstr "定義時間去清除 \"%s\" 清單"
+
+#: tpl/cache/settings-purge.tpl.php:106
+msgid "Both %1$s and %2$s are acceptable."
+msgstr "%1$s 和 %2$s 同時可被接受."
+
+#: tpl/cache/settings-purge.tpl.php:105 src/lang.cls.php:96
+msgid "Scheduled Purge Time"
+msgstr "預定的清除時間"
+
+#: tpl/cache/settings-purge.tpl.php:105
+msgid "The URLs here (one per line) will be purged automatically at the time set in the option \"%s\"."
+msgstr "時間選擇 \"%s\" 設定, URL (每行一個) 放於這裡將被自動清除"
+
+#: tpl/cache/settings-purge.tpl.php:130 src/lang.cls.php:95
+msgid "Scheduled Purge URLs"
+msgstr "預定清除的 URL"
+
+#: tpl/toolbox/settings-debug.tpl.php:113
+msgid "Shorten query strings in the debug log to improve readability."
+msgstr "簡短除錯日誌的字串以方便閱讀"
+
+#: tpl/toolbox/entry.tpl.php:18
+msgid "Heartbeat"
+msgstr "心跳"
+
+#: tpl/page_optm/settings_tuning.tpl.php:114
+#: tpl/toolbox/settings-debug.tpl.php:83
+msgid "MB"
+msgstr "MB"
+
+#: src/lang.cls.php:228
+msgid "Log File Size Limit"
+msgstr "日誌檔案大小限制"
+
+#: src/htaccess.cls.php:847
+msgid "<p>Please add/replace the following codes into the beginning of %1$s:</p> %2$s"
+msgstr "<p>請新增/替代以下程式碼到開頭 %1$s:</p> %2$s"
+
+#: src/error.cls.php:91 src/error.cls.php:115
+msgid "%s file not writable."
+msgstr "無法寫入 %s 檔案。"
+
+#: src/error.cls.php:111
+msgid "%s file not readable."
+msgstr "無法讀取 %s 檔案。"
+
+#: src/lang.cls.php:230
+msgid "Collapse Query Strings"
+msgstr "Collapse Query Strings"
+
+#: src/lang.cls.php:229
+msgid "Log Cookies"
+msgstr "紀錄 cookies"
+
+#: tpl/cache/settings-esi.tpl.php:7
+msgid "ESI Settings"
+msgstr "ESI 設定"
+
+#: tpl/esi_widget_edit.php:74
+msgid "A TTL of 0 indicates do not cache."
+msgstr "TTL 設為 0 代表不啟用快取"
+
+#: tpl/esi_widget_edit.php:73
+msgid "Recommended value: 28800 seconds (8 hours)."
+msgstr "推薦參數: 28800 秒 (8小時)"
+
+#: tpl/esi_widget_edit.php:63
+msgid "Widget Cache TTL:"
+msgstr "小工具快取 TTL:"
+
+#: tpl/esi_widget_edit.php:36 src/lang.cls.php:174
+msgid "Enable ESI"
+msgstr "啟用 ESI"
+
+#: tpl/crawler/settings-sitemap.tpl.php:22
+msgid "The crawler can use your Google XML Sitemap instead of its own. Enter the full URL to your sitemap here."
+msgstr "爬蟲可以使用您的Google XML網站地圖來替代內置地圖。請在這裏輸入您網站地圖的完整的URL。"
+
+#: tpl/crawler/summary.tpl.php:50
+msgid "See <a %s>Introduction for Enabling the Crawler</a> for detailed information."
+msgstr "訪問<a %s>啓用爬蟲的介紹</a>以獲取更多訊息。"
+
+#: tpl/crawler/settings-sitemap.tpl.php:115 src/lang.cls.php:220
+msgid "Custom Sitemap"
+msgstr "自訂 Sitemap"
+
+#: tpl/toolbox/purge.tpl.php:228
+msgid "Purge pages by relative or full URL."
+msgstr "依據相對路經或完整網址清除頁面快取。"
+
+#: tpl/page_optm/settings_discussion.tpl.php:11 tpl/page_optm/entry.tpl.php:31
+#: tpl/page_optm/settings_css.tpl.php:86 tpl/cache/settings-esi.tpl.php:35
+#: tpl/crawler/summary.tpl.php:48 tpl/inc/check_cache_disabled.php:31
+#: tpl/inc/check_if_network_disable_all.php:19 tpl/cdn/manage.tpl.php:21
+msgid "WARNING"
+msgstr "警告"
+
+#: tpl/dash/dashboard.tpl.php:497 tpl/crawler/summary.tpl.php:106
+msgid "<b>Last crawled:</b> %s item(s)"
+msgstr "<b>上次爬行:</b> %s條"
+
+#: tpl/crawler/summary.tpl.php:63
+msgid "The next complete sitemap crawl will start at"
+msgstr "下次完整的網點地圖爬行將開始於"
+
+#: src/file.cls.php:167
+msgid "Failed to write to %s."
+msgstr "寫入%s失敗。"
+
+#: src/core.cls.php:265
+msgid "Notified LiteSpeed Web Server to purge the list."
+msgstr "已通知 LiteSpeed 網頁伺服器清除清單。"
+
+#: tpl/cache/settings-cache.tpl.php:24
+msgid "Please visit the <a %s>Information</a> page on how to test the cache."
+msgstr "請參閱<a %s>資訊</a>頁面以瞭解如何測試快取。"
+
+#: tpl/toolbox/settings-debug.tpl.php:52
+msgid "Allows listed IPs (one per line) to perform certain actions from their browsers."
+msgstr "允許列表中IP(每行一個)從它們的瀏覽器中執行特定操作。"
+
+#: tpl/crawler/settings-sitemap.tpl.php:113
+msgid "Alphabetical, ascending"
+msgstr "依字母升冪排序"
+
+#: tpl/crawler/settings-sitemap.tpl.php:113
+msgid "Alphabetical, descending"
+msgstr "依字母降冪排序"
+
+#: tpl/crawler/settings-sitemap.tpl.php:113
+msgid "Date, ascending"
+msgstr "依日期升冪排序"
+
+#: tpl/crawler/settings-sitemap.tpl.php:113
+msgid "Date, descending (Default)"
+msgstr "依日期降冪排序 (預設)"
+
+#: tpl/crawler/settings-sitemap.tpl.php:111
+msgid "Order links by"
+msgstr "連結排序條件"
+
+#: tpl/crawler/settings-sitemap.tpl.php:103
+msgid "Available Custom Post Type"
+msgstr "可用的自訂內容類型"
+
+#: tpl/crawler/settings-sitemap.tpl.php:92
+msgid "Exclude Custom Post Types"
+msgstr "排除自訂內容類型"
+
+#: tpl/crawler/settings-sitemap.tpl.php:83
+msgid "Include Tags"
+msgstr "包含全部標籤彙整頁面"
+
+#: tpl/crawler/settings-sitemap.tpl.php:76
+msgid "Include Categories"
+msgstr "包含全部分類彙整頁面"
+
+#: tpl/crawler/settings-sitemap.tpl.php:69
+msgid "Include Pages"
+msgstr "包含全部頁面"
+
+#: tpl/crawler/settings-sitemap.tpl.php:62
+msgid "Include Posts"
+msgstr "包含全部文章"
+
+#: tpl/crawler/settings-general.tpl.php:105
+msgid "Specify Number of Threads to use while crawling."
+msgstr "設定爬蟲運行時的線程數量。"
+
+#: tpl/crawler/settings-general.tpl.php:91
+msgid "Specify how long in seconds before the crawler should initiate crawling the entire sitemap again."
+msgstr "設定爬蟲再從網站地圖起始開始爬的間隔時間。"
+
+#: src/lang.cls.php:214
+msgid "Crawl Interval"
+msgstr "爬行間隔"
+
+#: src/lang.cls.php:213
+msgid "Interval Between Runs"
+msgstr "運行中的間隔"
+
+#: tpl/crawler/settings-general.tpl.php:62
+msgid "Specify time in seconds for the duration of the crawl interval."
+msgstr "設定爬蟲每次爬行的運行時間。"
+
+#: tpl/crawler/settings-general.tpl.php:33
+msgid "microseconds"
+msgstr "微秒"
+
+#: tpl/toolbox/purge.tpl.php:163
+msgid "Select below for \"Purge by\" options."
+msgstr "請在下方選取 [快取清除條件]。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:33
+msgid "Then another WordPress is installed (NOT MULTISITE) at %s"
+msgstr "另一份WordPress(非多網網站)安裝在%s"
+
+#: tpl/crawler/summary.tpl.php:199
+msgid "Show crawler status"
+msgstr "顯示爬蟲狀態"
+
+#: src/lang.cls.php:215
+msgid "Threads"
+msgstr "線程"
+
+#: tpl/crawler/summary.tpl.php:111
+msgid "Reset position"
+msgstr "重置位置"
+
+#: tpl/crawler/summary.tpl.php:184
+msgid "Run frequency is set by the Interval Between Runs setting."
+msgstr "運行頻率由運行中的間隔設定。"
+
+#: tpl/crawler/summary.tpl.php:217
+msgid "No crawler meta file generated yet"
+msgstr "尚無爬蟲爬過的痕跡"
+
+#: tpl/crawler/summary.tpl.php:192
+msgid "Watch Crawler Status"
+msgstr "查看爬蟲狀態"
+
+#: tpl/crawler/summary.tpl.php:42
+msgid "Crawler Cron"
+msgstr "爬蟲Cron"
+
+#: tpl/crawler/summary.tpl.php:122
+msgid "Cron Name"
+msgstr "Cron名字"
+
+#: tpl/crawler/summary.tpl.php:36
+msgid "%d minute"
+msgstr "%d 分鐘"
+
+#: tpl/crawler/map.tpl.php:27
+msgid "Generated at %s"
+msgstr "產生時間: %s"
+
+#: tpl/crawler/summary.tpl.php:23
+msgid "%d hours"
+msgstr "%d 小時"
+
+#: tpl/crawler/summary.tpl.php:26
+msgid "%d hour"
+msgstr "%d 小時"
+
+#: src/admin-display.cls.php:168 src/lang.cls.php:210
+msgid "Crawler"
+msgstr "檢索程式"
+
+#: tpl/inc/show_display_installed.php:16
+msgid "If there are any questions, the team is always happy to answer any questions on the <a %s>support forum</a>."
+msgstr "如果您有任何問題，我們歡迎你隨時來我們的<a %s>服務論壇</a>提問。"
+
+#: src/lang.cls.php:211
+msgid "Delay"
+msgstr "延遲"
+
+#: tpl/crawler/entry.tpl.php:18
+msgid "LiteSpeed Cache Crawler"
+msgstr "LiteSpeed Cache - 檢索程式"
+
+#: src/lang.cls.php:212
+msgid "Run Duration"
+msgstr "運行時長"
+
+#: tpl/crawler/summary.tpl.php:123
+msgid "Run Frequency"
+msgstr "運行頻率"
+
+#: tpl/crawler/summary.tpl.php:114
+msgid "Manually run"
+msgstr "手動執行"
+
+#: tpl/crawler/summary.tpl.php:33
+msgid "%d minutes"
+msgstr "%d 分鐘"
+
+#. Plugin URI of the plugin
+msgid "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
+msgstr "https://www.litespeedtech.com/products/cache-plugins/wordpress-acceleration"
+
+#: tpl/toolbox/purge.tpl.php:13
+msgid "Purge Pages"
+msgstr "清除頁面快取"
+
+#: tpl/toolbox/purge.tpl.php:14
+msgid "This will Purge Pages only"
+msgstr "這項功能僅會清除頁面快取。"
+
+#: tpl/cache/settings-purge.tpl.php:16
+msgid "Pages"
+msgstr "頁面"
+
+#: tpl/cache/settings-purge.tpl.php:18
+msgid "All pages with Recent Posts Widget"
+msgstr "全部頁面及 [近期文章] 小工具"
+
+#: src/purge.cls.php:519
+msgid "Notified LiteSpeed Web Server to purge pages."
+msgstr "已通知 LiteSpeed 網頁伺服器清除頁面快取。"
+
+#: cli/purge.cls.php:240
+msgid "Purged the tags!"
+msgstr "標籤已清除。"
+
+#: thirdparty/woocommerce.content.tpl.php:62
+msgid "For example, if the homepage for the site is located at %1$s, the shop page may be located at %2$s."
+msgstr "例如，如果網站首頁位於%1$s, 商品頁面可能位於%2$s."
+
+#: tpl/cdn/settings.tpl.php:257
+msgid "Email Address"
+msgstr "電子郵件地址"
+
+#: src/gui.cls.php:736
+msgid "Install Now"
+msgstr "立即安裝"
+
+#: cli/purge.cls.php:191
+msgid "Purged the url!"
+msgstr "網址已清除。"
+
+#: cli/purge.cls.php:140
+msgid "Purged the blog!"
+msgstr "網站已清除。"
+
+#: cli/purge.cls.php:95
+msgid "Purged All!"
+msgstr "清除全部！"
+
+#: src/purge.cls.php:539
+msgid "Notified LiteSpeed Web Server to purge error pages."
+msgstr "已通知 LiteSpeed 網頁伺服器清除錯誤頁面快取。"
+
+#: tpl/inc/show_error_cookie.php:11
+msgid "If using OpenLiteSpeed, the server must be restarted once for the changes to take effect."
+msgstr "如果正在使用OpenLiteSpeed，伺服器必須重新啓動一次以使更改生效。"
+
+#: tpl/inc/show_display_installed.php:8
+msgid "However, there is no way of knowing all the possible customizations that were implemented."
+msgstr "然而，沒有方法知道所有客製化安裝的實行情況。"
+
+#: tpl/cache/settings-cache.tpl.php:30
+msgid "The network admin setting can be overridden here."
+msgstr "多站網路管理中心的設定可以在這個頁面進行變更，但不會影響多站網路管理中心的原始設定。"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:47
+msgid "Please consult the host/server admin before making any changes."
+msgstr "請在進行任何變更前，洽詢這個網站的主機/伺服器管理員。"
+
+#: tpl/toolbox/purge.tpl.php:219
+msgid "Purge pages by post ID."
+msgstr "依據文章 ID 清除頁面快取。"
+
+#: tpl/toolbox/purge.tpl.php:8
+msgid "This will Purge Front Page only"
+msgstr "這項功能僅會清除靜態首頁快取。"
+
+#: tpl/toolbox/purge.tpl.php:223
+msgid "Purge pages by tag name - e.g. %2$s should be used for the URL %1$s."
+msgstr "依據標籤代稱清除頁面快取。如需清除網址為 %1$s 的頁面快取，請輸入 %2$s。"
+
+#: tpl/toolbox/purge.tpl.php:229
+msgid "e.g. Use %s or %s."
+msgstr "例如使用 %s 或 %s。"
+
+#: tpl/toolbox/purge.tpl.php:214
+msgid "Purge pages by category name - e.g. %2$s should be used for the URL %1$s."
+msgstr "依據分類代稱清除頁面快取。如需清除網址為 %1$s 的頁面快取，請輸入 %2$s。"
+
+#: tpl/toolbox/purge.tpl.php:117
+msgid "If only the WordPress site should be purged, use purge all."
+msgstr "如果只是WordPress網站需要清除，請使用清除全部。"
+
+#: src/core.cls.php:260
+msgid "Notified LiteSpeed Web Server to purge everything."
+msgstr "已通知 LiteSpeed 網頁伺服器清除全部快取。"
+
+#: tpl/general/network_settings.tpl.php:20
+msgid "Use Primary Site Configuration"
+msgstr "使用主要網站組態"
+
+#: tpl/general/network_settings.tpl.php:24
+msgid "Check this option to use the primary site's configuration for all subsites."
+msgstr "開啟這項設定後，便會在全部子網站套用主要網站的組態。"
+
+#: src/admin-display.cls.php:674
+msgid "Save Changes"
+msgstr "儲存設定"
+
+#: tpl/inc/check_if_network_disable_all.php:21
+msgid "The network admin selected use primary site configs for all subsites."
+msgstr "網路管理員選擇全部子網站使用首網站配置。"
+
+#: src/gui.cls.php:578
+msgid "LiteSpeed Cache Purge All"
+msgstr "LiteSpeed Cache 清除全部快取"
+
+#: tpl/inc/show_display_installed.php:14
+msgid "Create a post, make sure the front page is accurate."
+msgstr "創建一個文章，確保前臺頁面的精確。"
+
+#: tpl/inc/show_display_installed.php:13
+msgid "Visit the site while logged out."
+msgstr "登出狀態下訪問本站。"
+
+#: tpl/inc/show_display_installed.php:11
+msgid "Examples of test cases include:"
+msgstr "測試情況示例包括："
+
+#: tpl/inc/show_display_installed.php:9
+msgid "For that reason, please test the site to make sure everything still functions properly."
+msgstr "因爲那個原因，請測試網站確保所有功能正常運行。"
+
+#: tpl/inc/show_display_installed.php:5
+msgid "LiteSpeed Cache plugin is installed!"
+msgstr "LiteSpeed Cache 外掛已安裝。"
+
+#: tpl/toolbox/log_viewer.tpl.php:7 src/lang.cls.php:225
+msgid "Debug Log"
+msgstr "偵錯記錄"
+
+#: tpl/toolbox/settings-debug.tpl.php:38
+msgid "The Admin IP option will only output log messages on requests from admin IPs."
+msgstr "管理員IP選項僅對來自管理員IP的請求輸出日誌信息。"
+
+#: tpl/toolbox/report.tpl.php:49
+msgid "The environment report contains detailed information about the WordPress configuration."
+msgstr "環境報告包含WordPress配置的所有詳細信息。"
+
+#: tpl/inc/help_tabs.php:10
+msgid "LiteSpeed Cache is a page cache built into LiteSpeed Web Server."
+msgstr "LiteSpeed Cache 是 LiteSpeed 網頁伺服器內建的頁面快取功能。"
+
+#: tpl/cache/settings-purge.tpl.php:50 tpl/cache/settings-purge.tpl.php:89
+#: tpl/cache/settings-purge.tpl.php:113
+msgid "Note"
+msgstr "注意事項"
+
+#: tpl/cache/settings_inc.purge_on_upgrade.tpl.php:15
+msgid "When enabled, the cache will automatically purge when any plugins, themes, or WordPress core is upgraded."
+msgstr "啟用這項設定後，一旦有任何外掛、佈景主題或 WordPress 核心程式完成升級，便會自動清除快取。"
+
+#: src/lang.cls.php:93
+msgid "Purge All On Upgrade"
+msgstr "升級後清除全部快取"
+
+#: thirdparty/woocommerce.content.tpl.php:56
+msgid "Use Front Page TTL for the Shop Page"
+msgstr "商店頁面使用靜態首頁快取預設 TTL"
+
+#: thirdparty/woocommerce.content.tpl.php:27
+msgid "Product Update Interval"
+msgstr "產品更新間隔"
+
+#: thirdparty/woocommerce.content.tpl.php:48
+msgid "Determines how changes in product quantity and product stock status affect product pages and their associated category pages."
+msgstr "決定修改產品數量和庫存狀態時怎樣影響產品頁和它們相關的分類頁。"
+
+#: thirdparty/woocommerce.content.tpl.php:35
+msgid "Always purge both product and categories on changes to the quantity or stock status."
+msgstr "當數量或庫存狀態改變時總是清除產品和分類頁。"
+
+#: thirdparty/woocommerce.content.tpl.php:34
+msgid "Do not purge categories on changes to the quantity or stock status."
+msgstr "當數量或庫存狀態改變時不要清除分類。"
+
+#: thirdparty/woocommerce.content.tpl.php:34
+msgid "Purge product only when the stock status changes."
+msgstr "僅當庫存狀態改變時清除產品頁。"
+
+#: thirdparty/woocommerce.content.tpl.php:33
+msgid "Purge product and categories only when the stock status changes."
+msgstr "僅當庫存狀態改變時清除產品和分類頁。"
+
+#: thirdparty/woocommerce.content.tpl.php:32
+msgid "Purge categories only when stock status changes."
+msgstr "僅當庫存狀態改變時清除分類頁。"
+
+#: thirdparty/woocommerce.content.tpl.php:32
+msgid "Purge product on changes to the quantity or stock status."
+msgstr "當數量或庫存狀態改變時清除產品頁。"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:42
+msgid "Htaccess did not match configuration option."
+msgstr "Htaccess和配置內容不比對。"
+
+#: tpl/cache/settings-ttl.tpl.php:68 tpl/cache/settings-ttl.tpl.php:83
+msgid "If this is set to a number less than 30, feeds will not be cached."
+msgstr "如果設定值小於 30，便不會為資訊提供進行快取。"
+
+#: tpl/cache/settings-ttl.tpl.php:67
+msgid "Specify how long, in seconds, feeds are cached."
+msgstr "設定資訊提供快取保留時間 (單位為秒)。"
+
+#: src/lang.cls.php:62
+msgid "Default Feed TTL"
+msgstr "資訊提供快取預設 TTL"
+
+#: src/error.cls.php:119
+msgid "Failed to get %s file contents."
+msgstr "無法取得 %s 檔案的內容。"
+
+#: tpl/cache/settings_inc.cache_favicon.tpl.php:14
+msgid "favicon.ico is requested on most pages."
+msgstr "favicon.ico在大多數頁面都被需要。"
+
+#: tpl/cache/settings-cache.tpl.php:87
+msgid "Disabling this option may negatively affect performance."
+msgstr "禁用該選項或會影響效能。"
+
+#: src/htaccess.cls.php:917
+msgid "File Saved."
+msgstr "檔案已儲存。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:31
+msgid "There is a WordPress installed for %s."
+msgstr "有一份WordPress安裝到%s。"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:29
+msgid "Example use case:"
+msgstr "示範使用案例："
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:19
+msgid "MUST BE UNIQUE FROM OTHER WEB APPLICATIONS."
+msgstr "必須是不同於其它網頁應用的唯一值。"
+
+#: tpl/toolbox/purge.tpl.php:161
+msgid "Purge By..."
+msgstr "快取清除條件"
+
+#: tpl/toolbox/purge.tpl.php:242
+msgid "Purge List"
+msgstr "清除清單所列項目"
+
+#: src/lang.cls.php:184
+msgid "Login Cookie"
+msgstr "登入 Cookie"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:98
+msgid "Current %s Contents"
+msgstr "目前 %s 檔案的內容"
+
+#: tpl/cache/entry.tpl.php:18 tpl/cache/entry_network.tpl.php:11
+#: tpl/toolbox/settings-debug.tpl.php:70
+msgid "Advanced"
+msgstr "進階設定"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:18
+msgid "No spaces and case sensitive."
+msgstr "不能有空格，大小寫敏感。"
+
+#: tpl/toolbox/purge.tpl.php:202
+msgid "Tag"
+msgstr "標籤"
+
+#: tpl/toolbox/purge.tpl.php:196
+msgid "Post ID"
+msgstr "文章 ID"
+
+#: tpl/toolbox/purge.tpl.php:208 tpl/crawler/blacklist.tpl.php:31
+#: tpl/crawler/map.tpl.php:43
+msgid "URL"
+msgstr "網址"
+
+#: tpl/toolbox/purge.tpl.php:190
+msgid "Category"
+msgstr "分類"
+
+#: tpl/cache/settings_inc.login_cookie.tpl.php:17
+msgid "SYNTAX: alphanumeric and \"_\"."
+msgstr "語法: 字母數字和下劃線。"
+
+#: tpl/inc/show_error_cookie.php:5
+msgid "NOTICE: Database login cookie did not match your login cookie."
+msgstr "注意事項: 資料庫中的登入 Cookie 與目前使用者的登入 Cookie 不相符。"
+
+#: src/purge.cls.php:627
+msgid "Purge url %s"
+msgstr "清除網址 %s"
+
+#: src/purge.cls.php:567
+msgid "Purge category %s"
+msgstr "清除分類 [%s]"
+
+#: src/purge.cls.php:595
+msgid "Purge tag %s"
+msgstr "清除標籤 [%s]"
+
+#: tpl/cache/settings-cache.tpl.php:27
+msgid "When disabling the cache, all cached entries for this blog will be purged."
+msgstr "停用快取功能後，外掛會清除這個網站的全部快取。"
+
+#: tpl/page_optm/entry.tpl.php:37 tpl/cache/settings-cache.tpl.php:27
+msgid "NOTICE"
+msgstr "注意事項"
+
+#: src/doc.cls.php:61
+msgid "This setting will edit the .htaccess file."
+msgstr "這項設定會變更 .htaccess 檔案內容。"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:100
+msgid "DO NOT EDIT ANYTHING WITHIN %s"
+msgstr "請不要編輯包含在註解為 %s 中的內容"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:46
+msgid "Any changes made to the .htaccess file may break the site."
+msgstr "任何對 .htaccess 檔案的修改都有可能造成這個網站停止運作。"
+
+#: tpl/toolbox/edit_htaccess.tpl.php:39
+msgid "LiteSpeed Cache Edit .htaccess"
+msgstr "LiteSpeed Cache - 編輯 .htaccess"
+
+#: src/lang.cls.php:182
+msgid "Do Not Cache Cookies"
+msgstr "不進行快取的 Cookie"
+
+#: src/lang.cls.php:183
+msgid "Do Not Cache User Agents"
+msgstr "不使用快取的使用者代理程式"
+
+#: tpl/cache/network_settings-cache.tpl.php:13
+msgid "Network Enable Cache"
+msgstr "多站網路快取"
+
+#: tpl/cache/settings-advanced.tpl.php:12
+#: tpl/cache/settings_inc.browser.tpl.php:12 tpl/toolbox/report.tpl.php:29
+#: tpl/toolbox/heartbeat.tpl.php:14 thirdparty/woocommerce.content.tpl.php:18
+msgid "NOTICE:"
+msgstr "注意事項:"
+
+#: tpl/cache/settings-purge.tpl.php:53
+msgid "Other checkboxes will be ignored."
+msgstr "其他勾選框將會被無視。"
+
+#: tpl/cache/settings-purge.tpl.php:52
+msgid "Select \"All\" if there are dynamic widgets linked to posts on pages other than the front or home pages."
+msgstr "如果有動態小部件鏈接到除首頁和主頁外的文章或頁面，請選擇「全部」。"
+
+#: tpl/cache/settings_inc.cache_mobile.tpl.php:70 src/lang.cls.php:75
+msgid "List of Mobile User Agents"
+msgstr "行動版使用者代理程式清單"
+
+#: tpl/toolbox/entry.tpl.php:14
+msgid "Edit .htaccess"
+msgstr "編輯 .htaccess"
+
+#: tpl/db_optm/entry.tpl.php:6 tpl/cdn/entry.tpl.php:7
+#: tpl/cdn/settings.tpl.php:253 src/gui.cls.php:594
+msgid "Manage"
+msgstr "管理"
+
+#: src/lang.cls.php:61
+msgid "Default Front Page TTL"
+msgstr "靜態首頁快取預設 TTL"
+
+#: src/purge.cls.php:505
+msgid "Notified LiteSpeed Web Server to purge the front page."
+msgstr "已通知 LiteSpeed 網頁伺服器清除靜態首頁快取。"
+
+#: tpl/toolbox/purge.tpl.php:7
+msgid "Purge Front Page"
+msgstr "清除靜態首頁快取"
+
+#: tpl/cache/settings-excludes.tpl.php:93
+msgid "All tags are cached by default."
+msgstr "預設會為全部標籤進行快取。"
+
+#: tpl/cache/settings-excludes.tpl.php:57
+msgid "All categories are cached by default."
+msgstr "預設會為全部分類進行快取。"
+
+#: tpl/cache/settings-purge.tpl.php:54
+msgid "Select only the archive types that are currently used, the others can be left unchecked."
+msgstr "只選擇正使用中的存檔類型，其他類型可留空。"
+
+#: tpl/cache/settings-cache.tpl.php:19
+msgid "Use Network Admin Setting"
+msgstr "套用多站網路管理中心設定"
+
+#: tpl/cache/network_settings-cache.tpl.php:17
+msgid "Enabling LiteSpeed Cache for WordPress here enables the cache for the network."
+msgstr "開啟這項設定後，便能為整個多站網路啟用 LiteSpeed 的 WordPress 快取功能。"
+
+#: tpl/cache/settings_inc.object.tpl.php:7
+msgid "Disabled"
+msgstr "禁用"
+
+#: tpl/cache/settings_inc.object.tpl.php:6
+msgid "Enabled"
+msgstr "啟用"
+
+#: src/lang.cls.php:103
+msgid "Do Not Cache Roles"
+msgstr "不使用快取的使用者角色"
+
+#. Author URI of the plugin
+msgid "https://www.litespeedtech.com"
+msgstr "https://www.litespeedtech.com"
+
+#. Author of the plugin
+msgid "LiteSpeed Technologies"
+msgstr "LiteSpeed Technologies"
+
+#. Plugin Name of the plugin
+#: tpl/banner/new_version_dev.tpl.php:12 tpl/banner/new_version.php:59
+#: tpl/cache/more_settings_tip.tpl.php:15 tpl/inc/admin_footer.php:8
+msgid "LiteSpeed Cache"
+msgstr "LiteSpeed Cache"
+
+#: tpl/toolbox/settings-debug.tpl.php:36
+msgid "Outputs to WordPress debug log."
+msgstr "輸出到 WordPress debug 日誌."
+
+#: src/lang.cls.php:227
+msgid "Debug Level"
+msgstr "除錯等級"
+
+#: tpl/crawler/settings-general.tpl.php:138 tpl/general/settings.tpl.php:85
+#: tpl/general/settings.tpl.php:96 tpl/general/settings.tpl.php:117
+msgid "Notice"
+msgstr "注意"
+
+#: tpl/cache/settings-purge.tpl.php:27
+msgid "Term archive (include category, tag, and tax)"
+msgstr "分類法詞彙彙整 (包含分類、標籤及自訂分類法)"
+
+#: tpl/cache/settings-purge.tpl.php:25
+msgid "Daily archive"
+msgstr "每日彙整"
+
+#: tpl/cache/settings-purge.tpl.php:24
+msgid "Monthly archive"
+msgstr "每月彙整"
+
+#: tpl/cache/settings-purge.tpl.php:23
+msgid "Yearly archive"
+msgstr "年份彙整"
+
+#: tpl/cache/settings-purge.tpl.php:21
+msgid "Post type archive"
+msgstr "內容類型彙整"
+
+#: tpl/cache/settings-purge.tpl.php:20
+msgid "Author archive"
+msgstr "作者彙整"
+
+#: tpl/cache/settings-purge.tpl.php:15
+msgid "Home page"
+msgstr "首頁"
+
+#: tpl/cache/settings-purge.tpl.php:14
+msgid "Front page"
+msgstr "靜態首頁"
+
+#: tpl/cache/settings-purge.tpl.php:13
+msgid "All pages"
+msgstr "全部頁面"
+
+#: src/lang.cls.php:59
+msgid "Default Public Cache TTL"
+msgstr "公開快取預設 TTL"
+
+#: tpl/esi_widget_edit.php:70 tpl/cache/settings_inc.object.tpl.php:103
+#: tpl/crawler/settings-general.tpl.php:60
+#: tpl/crawler/settings-general.tpl.php:74
+#: tpl/crawler/settings-general.tpl.php:89 src/admin-display.cls.php:911
+msgid "seconds"
+msgstr "秒"
+
+#: src/lang.cls.php:226
+msgid "Admin IPs"
+msgstr "管理員 IP"
+
+#: src/admin-display.cls.php:156
+msgid "General"
+msgstr "一般"
+
+#: tpl/cache/entry.tpl.php:39
+msgid "LiteSpeed Cache Settings"
+msgstr "LiteSpeed Cache - 設定"
+
+#: tpl/toolbox/purge.tpl.php:39 tpl/toolbox/purge.tpl.php:45
+#: tpl/toolbox/purge.tpl.php:54 tpl/toolbox/purge.tpl.php:63
+#: tpl/toolbox/purge.tpl.php:72 tpl/toolbox/purge.tpl.php:81
+#: tpl/toolbox/purge.tpl.php:90 tpl/toolbox/purge.tpl.php:99
+#: src/gui.cls.php:488 src/gui.cls.php:496 src/gui.cls.php:504
+#: src/gui.cls.php:513 src/gui.cls.php:523 src/gui.cls.php:533
+#: src/gui.cls.php:543 src/gui.cls.php:553 src/gui.cls.php:620
+#: src/gui.cls.php:628 src/gui.cls.php:636 src/gui.cls.php:645
+#: src/gui.cls.php:655 src/gui.cls.php:665 src/gui.cls.php:675
+#: src/gui.cls.php:685 src/gui.cls.php:695
+msgid "Purge All"
+msgstr "清除全部快取"
+
+#: tpl/inc/help_tabs.php:25
+msgid "Support Forum"
+msgstr "技術支援論壇"
+
+#: tpl/inc/help_tabs.php:23
+msgid "For more information:"
+msgstr "進一步瞭解相關資訊:"
+
+#: tpl/inc/help_tabs.php:8
+msgid "Overview"
+msgstr "概觀"

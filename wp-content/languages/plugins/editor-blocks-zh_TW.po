@@ -1,0 +1,608 @@
+# Translation of Plugins - Editor Blocks for Gutenberg - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Editor Blocks for Gutenberg - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-09-17 06:37:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Editor Blocks for Gutenberg - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+msgid "Editor Blocks for Gutenberg"
+msgstr "Editor Blocks for Gutenberg"
+
+#. Author of the plugin
+msgid "editorblocks"
+msgstr "editorblocks"
+
+#. Author URI of the plugin
+msgid "https://editorblockswp.com"
+msgstr "https://editorblockswp.com"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/editor-blocks"
+msgstr "https://tw.wordpress.org/plugins/editor-blocks"
+
+#. Description of the plugin
+msgid "A unique collection of Gutenberg blocks."
+msgstr "與眾不同的 Gutenberg 區塊選輯。"
+
+#: src/vertical-feature/inspector.js:55
+msgid "Image Width (px)"
+msgstr "圖片寬度 (px)"
+
+#: src/vertical-feature/inspector.js:32
+msgid "Content Width (px)"
+msgstr "內容寬度 (px)"
+
+#: src/vertical-feature/inspector.js:26
+msgid "Below Content"
+msgstr "置於內容後方"
+
+#: src/vertical-feature/inspector.js:25
+msgid "Above Content"
+msgstr "置於內容前方"
+
+#: src/vertical-feature/index.js:16
+msgid "Vertical Feature (EB)"
+msgstr "直式特色項目 (EB)"
+
+#: src/callout/index.js:21
+msgid "Button"
+msgstr "按鈕"
+
+#: src/testimonial/inspector.js:60
+msgid "Author Color"
+msgstr "作者名稱色彩"
+
+#: src/testimonial/inspector.js:55
+msgid "Testimonial Color"
+msgstr "證言內容色彩"
+
+#: src/testimonial/inspector.js:35 src/testimonial/inspector.js:42
+msgid "Font Size (px)"
+msgstr "字型大小 (px)"
+
+#: src/testimonial/inspector.js:28
+msgid "Image Size (px)"
+msgstr "圖片大小 (px)"
+
+#: src/testimonial/index.js:89
+msgid "Testimonial Author"
+msgstr "證言內容作者"
+
+#: src/testimonial/index.js:21 src/testimonial/index.js:101
+msgid "Testimonial"
+msgstr "證言內容"
+
+#: src/testimonial/index.js:16
+msgid "Testimonial (EB)"
+msgstr "證言內容 (EB)"
+
+#: src/wrapper/inspector.js:142
+msgid "Margin Bottom"
+msgstr "下邊界"
+
+#: src/wrapper/inspector.js:135
+msgid "Margin Top"
+msgstr "上邊界"
+
+#: src/wrapper/inspector.js:132
+msgid "Margin"
+msgstr "邊界"
+
+#: src/wrapper/inspector.js:126
+msgid "Padding Left"
+msgstr "左邊框間距"
+
+#: src/wrapper/inspector.js:119
+msgid "Padding Bottom"
+msgstr "下邊框間距"
+
+#: src/wrapper/inspector.js:112
+msgid "Padding Right"
+msgstr "右邊框間距"
+
+#: src/wrapper/inspector.js:105
+msgid "Padding Top"
+msgstr "上邊框間距"
+
+#: src/wrapper/inspector.js:102
+msgid "Padding"
+msgstr "邊框間距"
+
+#: src/wrapper/inspector.js:97
+msgid "Background Color"
+msgstr "背景色彩"
+
+#: src/wrapper/inspector.js:84
+msgid "Background Opacity (%)"
+msgstr "背景不透明度 (%)"
+
+#: src/wrapper/inspector.js:81
+msgid "Background Opacity"
+msgstr "背景不透明度"
+
+#: src/wrapper/inspector.js:77
+msgid "Remove Image"
+msgstr "移除圖片"
+
+#: src/wrapper/inspector.js:70
+msgid "Open Media Library"
+msgstr "開啟媒體庫"
+
+#: src/wrapper/inspector.js:56
+msgid "Featured image"
+msgstr "精選圖片"
+
+#: src/wrapper/inspector.js:49
+msgid "Set featured image"
+msgstr "設定精選圖片"
+
+#: src/wrapper/inspector.js:46
+msgid "Background Image"
+msgstr "背景圖片"
+
+#: src/wrapper/inspector.js:41
+msgid "Full Width Background"
+msgstr "全幅寬度背景"
+
+#: src/brands/inspector.js:19
+msgid "Brands Settings"
+msgstr "品牌標誌設定"
+
+#: src/brands/index.js:25
+msgid "Logos"
+msgstr "標誌"
+
+#: src/brands/index.js:23 src/brands/inspector.js:21
+msgid "Brands"
+msgstr "品牌標誌數量"
+
+#: src/brands/index.js:18
+msgid "Brands (EB)"
+msgstr "品牌標誌 (EB)"
+
+#: src/pricing-table/inspector.js:79
+msgid "Features Color"
+msgstr "特色項目色彩"
+
+#: src/pricing-table/inspector.js:74
+msgid "Price Color"
+msgstr "價格色彩"
+
+#: src/pricing-table/inspector.js:69
+msgid "Description Color"
+msgstr "說明內容色彩"
+
+#: src/pricing-table/inspector.js:59
+msgid "Column Background Color"
+msgstr "欄位背景色彩"
+
+#: src/pricing-table/index.js:151
+msgid "$49.99"
+msgstr "美金 49.99 元"
+
+#: src/pricing-table/index.js:23
+msgid "Pricing Table"
+msgstr "價格表"
+
+#: src/pricing-table/index.js:19
+msgid "Beautiful 2, 3, 4 or 5 column pricing tables"
+msgstr "美觀、可設定為 2 至 5 欄的價格表。"
+
+#: src/pricing-table/index.js:18
+msgid "Pricing Table (EB)"
+msgstr "價格表 (EB)"
+
+#: src/pricing-table/inspector.js:32 src/features/inspector.js:19
+msgid "Feature Settings"
+msgstr "特色項目設定"
+
+#: src/features/index.js:120
+msgid "Feature Description"
+msgstr "特色項目說明"
+
+#: src/features/index.js:111
+msgid "Feature Heading"
+msgstr "特色項目標題"
+
+#: src/features/index.js:18
+msgid "Features (EB)"
+msgstr "特色項目 (EB)"
+
+#: src/callout/inspector.js:51 src/hero/inspector.js:83
+msgid "Button Text Color"
+msgstr "按鈕文字色彩"
+
+#: src/hero/inspector.js:77
+msgid "Button Color Settings"
+msgstr "按鈕色彩設定"
+
+#: src/hero/inspector.js:21
+msgid "Width (px)"
+msgstr "寬度 (px)"
+
+#: src/hero/index.js:105
+msgid "Hero Text"
+msgstr "宣傳內容文字"
+
+#: src/hero/index.js:95
+msgid "Hero Heading"
+msgstr "宣傳內容標題"
+
+#: src/hero/index.js:20
+msgid "Hero"
+msgstr "宣傳內容"
+
+#: src/hero/index.js:15
+msgid "Hero (EB)"
+msgstr "宣傳內容 (EB)"
+
+#: src/callout/inspector.js:56 src/pricing-table/inspector.js:89
+#: src/vertical-feature/inspector.js:125
+#: src/horizontal-feature/inspector.js:125 src/hero/inspector.js:89
+msgid "Button Background Color"
+msgstr "按鈕背景色彩"
+
+#: src/pricing-table/inspector.js:84 src/vertical-feature/inspector.js:120
+#: src/horizontal-feature/inspector.js:120
+msgid "Button Color"
+msgstr "按鈕色彩"
+
+#: src/vertical-feature/inspector.js:110
+#: src/horizontal-feature/inspector.js:110
+msgid "Sub Heading Color"
+msgstr "子標題色彩"
+
+#: src/callout/inspector.js:35 src/vertical-feature/inspector.js:91
+#: src/horizontal-feature/inspector.js:91 src/hero/inspector.js:69
+msgid "Button URL"
+msgstr "按鈕網址"
+
+#: src/callout/inspector.js:30 src/vertical-feature/inspector.js:86
+#: src/horizontal-feature/inspector.js:86 src/hero/inspector.js:64
+msgid "Button Text"
+msgstr "按鈕文字"
+
+#: src/vertical-feature/inspector.js:80 src/horizontal-feature/inspector.js:80
+#: src/hero/inspector.js:58
+msgid "Button is not visible."
+msgstr "按鈕為不可見。"
+
+#: src/vertical-feature/inspector.js:80 src/horizontal-feature/inspector.js:80
+#: src/hero/inspector.js:58
+msgid "Button is visible."
+msgstr "按鈕為可見。"
+
+#: src/vertical-feature/inspector.js:78 src/horizontal-feature/inspector.js:78
+#: src/hero/inspector.js:56
+msgid "Show Button"
+msgstr "顯示按鈕"
+
+#: src/callout/inspector.js:28 src/pricing-table/inspector.js:41
+#: src/vertical-feature/inspector.js:76 src/horizontal-feature/inspector.js:76
+#: src/hero/inspector.js:54
+msgid "Button Settings"
+msgstr "按鈕設定"
+
+#: src/vertical-feature/inspector.js:69 src/horizontal-feature/inspector.js:69
+msgid "Image Padding Bottom (px)"
+msgstr "圖片下邊框間距 (px)"
+
+#: src/vertical-feature/inspector.js:62 src/horizontal-feature/inspector.js:62
+msgid "Image Padding Top (px)"
+msgstr "圖片上邊框間距 (px)"
+
+#: src/horizontal-feature/inspector.js:55
+msgid "Image Width (%)"
+msgstr "圖片寬度 (%)"
+
+#: src/vertical-feature/inspector.js:53 src/horizontal-feature/inspector.js:53
+msgid "Image Settings"
+msgstr "圖片設定"
+
+#: src/vertical-feature/inspector.js:46 src/horizontal-feature/inspector.js:46
+msgid "Content Padding Bottom (px)"
+msgstr "內容下邊框間距 (px)"
+
+#: src/vertical-feature/inspector.js:39 src/horizontal-feature/inspector.js:39
+msgid "Content Padding Top (px)"
+msgstr "內容上邊框間距 (px)"
+
+#: src/horizontal-feature/inspector.js:32
+msgid "Content Width (%)"
+msgstr "內容寬度 (%)"
+
+#: src/vertical-feature/inspector.js:30 src/horizontal-feature/inspector.js:30
+msgid "Content Settings"
+msgstr "內容設定"
+
+#: src/wrapper/inspector.js:37 src/horizontal-feature/inspector.js:26
+#: src/hero/inspector.js:34
+msgid "Right"
+msgstr "靠右"
+
+#: src/wrapper/inspector.js:36 src/horizontal-feature/inspector.js:25
+#: src/hero/inspector.js:32
+msgid "Left"
+msgstr "靠左"
+
+#: src/vertical-feature/inspector.js:21 src/horizontal-feature/inspector.js:21
+msgid "Image Position"
+msgstr "圖片位置"
+
+#: src/vertical-feature/inspector.js:19 src/horizontal-feature/inspector.js:19
+msgid "Layout Settings"
+msgstr "版面配置設定"
+
+#: src/vertical-feature/index.js:171 src/horizontal-feature/index.js:139
+msgid "Sub Heading"
+msgstr "子標題"
+
+#: src/callout/index.js:37 src/horizontal-feature/index.js:92
+#: src/hero/index.js:64
+msgid "Click Here"
+msgstr "點擊這裡"
+
+#: src/vertical-feature/index.js:21 src/vertical-feature/index.js:23
+#: src/horizontal-feature/index.js:22 src/horizontal-feature/index.js:24
+#: src/horizontal-feature/index.js:173 src/features/index.js:100
+msgid "Feature"
+msgstr "特色項目"
+
+#: src/horizontal-feature/index.js:17
+msgid "Horizontal Feature (EB)"
+msgstr "橫式特色項目 (EB)"
+
+#: src/team/inspector.js:45
+msgid "Bio Color"
+msgstr "簡歷色彩"
+
+#: src/team/inspector.js:40
+msgid "Position Color"
+msgstr "職稱色彩"
+
+#: src/team/inspector.js:35
+msgid "Name Color"
+msgstr "全名色彩"
+
+#: src/team/inspector.js:19
+msgid "Team Settings"
+msgstr "團隊成員設定"
+
+#: src/team/index.js:129
+msgid "Bio"
+msgstr "簡歷"
+
+#: src/team/index.js:109
+msgid "Name"
+msgstr "全名"
+
+#: src/wrapper/index.js:80 src/team/index.js:25 src/pricing-table/index.js:25
+#: src/features/index.js:25 src/hero/index.js:22
+msgid "EB"
+msgstr "EB"
+
+#: src/team/index.js:23 src/features/index.js:23
+msgid "Features"
+msgstr "特色項目"
+
+#: src/team/index.js:18
+msgid "Team (EB)"
+msgstr "團隊成員 (EB)"
+
+#: src/author/edit.js:40 src/author/edit.js:62
+msgid "Author ID"
+msgstr "作者 ID"
+
+#: src/author/edit.js:38
+msgid "Author Profile Settings"
+msgstr "作者個人資料設定"
+
+#: src/author/index.js:17
+msgid "Author Profile"
+msgstr "作者個人資料"
+
+#: src/author/index.js:13
+msgid "Display a WordPress user’s profile dynamically using this block."
+msgstr "使用這個區塊便能動態顯示指定的 WordPress 使用者個人資料。"
+
+#: src/author/index.js:12
+msgid "Author Profile (EB)"
+msgstr "作者個人資料 (EB)"
+
+#: src/callout/inspector.js:46 src/vertical-feature/inspector.js:115
+#: src/horizontal-feature/inspector.js:115 src/intro/inspector.js:53
+#: src/features/inspector.js:39 src/hero/inspector.js:49
+msgid "Text Color"
+msgstr "文字色彩"
+
+#: src/pricing-table/inspector.js:64 src/vertical-feature/inspector.js:105
+#: src/horizontal-feature/inspector.js:105 src/intro/inspector.js:48
+#: src/features/inspector.js:34 src/hero/inspector.js:44
+msgid "Heading Color"
+msgstr "標題色彩"
+
+#: src/wrapper/inspector.js:92 src/callout/inspector.js:41
+#: src/team/inspector.js:29 src/pricing-table/inspector.js:53
+#: src/vertical-feature/inspector.js:99 src/horizontal-feature/inspector.js:99
+#: src/intro/inspector.js:43 src/features/inspector.js:29
+#: src/testimonial/inspector.js:50 src/hero/inspector.js:39
+msgid "Color Settings"
+msgstr "色彩設定"
+
+#: src/callout/inspector.js:21 src/intro/inspector.js:28
+#: src/intro/inspector.js:35
+msgid "Font Size"
+msgstr "字型大小"
+
+#: src/intro/inspector.js:21 src/testimonial/inspector.js:21
+msgid "Max Width (px)"
+msgstr "最大寬度 (px)"
+
+#: src/intro/index.js:72
+msgid "Intro Heading"
+msgstr "內容簡介標題"
+
+#: src/callout/index.js:22 src/intro/index.js:22 src/intro/index.js:81
+msgid "Subheading"
+msgstr "子標題"
+
+#: src/pricing-table/index.js:133 src/vertical-feature/index.js:161
+#: src/horizontal-feature/index.js:129 src/intro/index.js:21
+msgid "Heading"
+msgstr "標題"
+
+#: src/intro/index.js:20
+msgid "Intro"
+msgstr "內容簡介"
+
+#: src/intro/index.js:16
+msgid "Introduce your content with a heading and subheading."
+msgstr "透過標題及子標題為內容進行簡介。"
+
+#: src/intro/index.js:15
+msgid "Intro (EB)"
+msgstr "內容簡介 (EB)"
+
+#: src/vertical-feature/index.js:17
+msgid "Highlight a key feature of your product or service using this vertical display."
+msgstr "使用直式方式顯示產品或服務的關鍵特色。"
+
+#: src/callout/inspector.js:19
+msgid "Callout Settings"
+msgstr "行動號召設定"
+
+#: src/callout/index.js:68
+msgid "Callout Text"
+msgstr "行動號召文字"
+
+#: src/callout/index.js:20
+msgid "Callout"
+msgstr "行動號召"
+
+#: src/callout/index.js:16
+msgid "Draw your visitors attention to your high-value pages or newsletter using an inline callout."
+msgstr "使用內嵌行動號召吸引網站訪客注意高價值網頁及電子報。"
+
+#: src/callout/index.js:15
+msgid "Callout (EB)"
+msgstr "行動號召 (EB)"
+
+#: src/testimonial/inspector.js:19
+msgid "General"
+msgstr "一般設定"
+
+#: src/testimonial/index.js:110
+msgid "Joe Blogs - Author"
+msgstr "GMAF 評測部落格 - 作者"
+
+#: src/testimonial/index.js:22
+msgid "Review"
+msgstr "評等"
+
+#: src/testimonial/index.js:17
+msgid "Showcase your client testimonials with this beautiful block."
+msgstr "以美觀的區塊顯示客戶證言內容。"
+
+#: src/wrapper/inspector.js:35
+msgid "Middle"
+msgstr "置中"
+
+#: src/wrapper/inspector.js:22
+msgid "Inner Width (px)"
+msgstr "內部元素寬度 (px)"
+
+#: src/wrapper/inspector.js:19
+msgid "Inner Width"
+msgstr "內部元素寬度"
+
+#: src/wrapper/index.js:78
+msgid "wrapper"
+msgstr "包裝項目"
+
+#: src/wrapper/index.js:74
+msgid "Add a background image or color to any block, as well as padding and margins."
+msgstr "這個區塊能將背景圖片、色彩、邊框間距及邊界新增至任何區塊。"
+
+#: src/wrapper/index.js:73
+msgid "Wrapper (EB)"
+msgstr "包裝項目 (EB)"
+
+#: src/brands/index.js:19
+msgid "Display a collection of logos in a row. Perfect for highlighting your partners or clients."
+msgstr "將標誌集以橫列方式顯示。非常適合用來展示合作夥伴及客戶。"
+
+#: src/pricing-table/index.js:162
+msgid "Feature One"
+msgstr "特色 1"
+
+#: src/pricing-table/index.js:122
+msgid "Column"
+msgstr "欄位數量"
+
+#: src/pricing-table/inspector.js:34 src/features/inspector.js:21
+msgid "Columns"
+msgstr "欄位數量"
+
+#: src/features/index.js:19
+msgid "Display an organised feature list in columns. Accompany each feature with an image or icon."
+msgstr "以多欄方式顯示經過整理的特色項目清單。每項特色都會搭配一張圖片或圖示。"
+
+#: src/hero/inspector.js:33
+msgid "Center"
+msgstr "置中"
+
+#: src/hero/inspector.js:19
+msgid "Positioning"
+msgstr "位置"
+
+#: src/hero/index.js:16
+msgid "Pair this block with the wrapper block to create stunning hero areas."
+msgstr "這個區塊搭配 [包裝項目] 區塊，便能建立令人眼前為之一亮的宣傳內容區域。"
+
+#: src/pricing-table/index.js:142 src/vertical-feature/index.js:181
+#: src/horizontal-feature/index.js:149
+msgid "Description"
+msgstr "內容說明"
+
+#: src/horizontal-feature/index.js:18
+msgid "Highlight a key feature of your product or service using this horizontal display."
+msgstr "使用橫式方式顯示產品或服務的關鍵特色。"
+
+#: src/team/inspector.js:21
+msgid "Members"
+msgstr "團隊成員數量"
+
+#: src/wrapper/inspector.js:31 src/team/index.js:119 src/hero/inspector.js:28
+msgid "Position"
+msgstr "位置"
+
+#: src/team/index.js:19
+msgid "Display a list of team members in a multi-column layout."
+msgstr "以多欄版面配置方式顯示團隊成員清單。"
+
+#: src/author/index.js:18
+msgid "User"
+msgstr "使用者"
+
+#: src/intro/inspector.js:19
+msgid "Sizing"
+msgstr "尺寸"
+
+#. translators: %s Link to Google Fonts customizer panel.
+#: admin/class-editor-blocks-notice.php:91
+msgid "Thanks for using Editor Blocks! Our latest plugin allows you to control which blocks are shown in the editor - <a href=\"%s\">Disable Gutenberg Blocks</a>."
+msgstr "感謝使用 Editor Blocks。我們開發的 <a href=\"%s\">Disable Gutenberg Blocks</a> 外掛，能讓網站管理員控制區塊編輯器要顯示/隱藏哪些區塊。"
+
+#: plugin.php:53 src/wrapper/index.js:79 src/team/index.js:24
+#: src/pricing-table/index.js:24 src/vertical-feature/index.js:22
+#: src/horizontal-feature/index.js:23 src/features/index.js:24
+#: src/testimonial/index.js:23 src/brands/index.js:24 src/hero/index.js:21
+msgid "Editor Blocks"
+msgstr "Editor Blocks"
