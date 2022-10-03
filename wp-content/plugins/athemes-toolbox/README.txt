@@ -2,8 +2,8 @@
 Contributors: athemes, vladff
 Tags: sydney, custom post types, custom fields
 Requires at least: 4.0
-Tested up to: 5.3
-Stable tag: 1.06
+Tested up to: 5.6
+Stable tag: 1.08
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,8 @@ None yet.
 == Screenshots ==
 
 == Changelog ==
+= 1.07 =
+* Perth and Rocked compatibility
 = 1.06 =
 * Latest WP compatibility
 = 1.05 =

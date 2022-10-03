@@ -31,7 +31,6 @@ zita Responsive Menu script
         $('body').removeClass('mobile-menu-active');
         $('body').removeClass('mobile-above-menu-active');
         $('body').removeClass('mobile-bottom-menu-active');
-        $('body').removeClass('mobile-pan-active');
         });
              
         $('#menu-btn,#menu-btn-abv,#menu-btn-btm,#bar-menu-btn').click(function(e){ 
@@ -46,13 +45,14 @@ zita Responsive Menu script
           $('body').removeClass('mobile-above-menu-active');
           $('body').removeClass('mobile-bottom-menu-active');
           $('body.mhdminbarbtm').removeClass('mobile-pan-active');
+          $('body.mhdminbarleft').removeClass('mobile-pan-active');
+          $('body.mhdminbarright').removeClass('mobile-pan-active');
         });
         // Menu Toggle
         function menuCollapse(){
             var w = $(window).innerWidth();
             if (w <= $resizeWidth){
-                $aceMenu.find('li.menu-active').removeClass('menu-active');
-                $aceMenu.find('ul.slide').removeClass('slide').removeAttr('style');
+               
                 $aceMenu.addClass('collapse hide-menu');
                 $('.arrow').attr("tabindex","0");
                 $('.menu-toggle').show();

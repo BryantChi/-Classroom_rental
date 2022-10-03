@@ -92,10 +92,10 @@ class Athemes_Toolbox_Services {
 	public function check_theme() {
 		$theme  = wp_get_theme();
 		$parent = wp_get_theme()->parent();
-		if ( ($theme != 'Moesia' ) && ($theme != 'Moesia Pro' ) && ($parent != 'Moesia') && ($parent != 'Moesia Pro') ) {
-			return false;
-		} else {
+		if ( ($theme != 'Talon' ) && ($theme != 'Talon Pro' ) && ($parent != 'Talon') && ($parent != 'Talon Pro') ) {
 			return true;
+		} else {
+			return false;
 		}
 	}
 

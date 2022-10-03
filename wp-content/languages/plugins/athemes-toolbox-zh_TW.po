@@ -1,15 +1,39 @@
-# Translation of Plugins - Athemes Toolbox - Stable (latest release) in Chinese (Taiwan)
-# This file is distributed under the same license as the Plugins - Athemes Toolbox - Stable (latest release) package.
+# Translation of Plugins - Athemes Toolbox - Development (trunk) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Athemes Toolbox - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-29 12:05:04+0000\n"
+"PO-Revision-Date: 2021-01-18 10:56:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: zh_TW\n"
-"Project-Id-Version: Plugins - Athemes Toolbox - Stable (latest release)\n"
+"Project-Id-Version: Plugins - Athemes Toolbox - Development (trunk)\n"
+
+#: inc/metaboxes/timeline-metabox.php:102
+msgid "You can link this item to a page by adding a custom URL here.."
+msgstr "將這個項目連結至這個欄位中輸入自訂網址"
+
+#: inc/metaboxes/timeline-metabox.php:101
+msgid "Event URL"
+msgstr "大事記網址"
+
+#: inc/metaboxes/timeline-metabox.php:97
+msgid "Event icon color"
+msgstr "大事記圖示色彩"
+
+#: inc/metaboxes/timeline-metabox.php:94
+msgid "Add an icon for this event (example: fa-android). Full list of icons is <a href=\"http://fortawesome.github.io/Font-Awesome/cheatsheet/\">here</a>."
+msgstr "新增這項大事記的圖示 (例如 fa-android)。點擊<a href=\"http://fortawesome.github.io/Font-Awesome/cheatsheet/\" target=\"_blank\">這裡</a>檢視完整圖示清單。"
+
+#: inc/metaboxes/timeline-metabox.php:88
+msgid "Event date"
+msgstr "大事記日期"
+
+#: inc/metaboxes/employees-metabox.php:112
+msgid "Employee Google Plus"
+msgstr "員工的 Google+"
 
 #: inc/metaboxes/projects-metabox.php:92
 msgid "Here you can add a link for a Youtube/Vimeo video that will be displayed in a lightbox when you click on the magnify icon."
@@ -18,70 +42,6 @@ msgstr "在這裡可以新增 Youtube/Vimeo 影片的連結，之後使用者點
 #: inc/metaboxes/projects-metabox.php:91
 msgid "Video URL"
 msgstr "視訊網址"
-
-#: inc/metaboxes/projects-metabox.php:84
-msgid "Add an URL here to make this project link to another page (internal or external). Leave it empty and it will default to its own page."
-msgstr "在這裡加入的連結，能將專案資訊連結至其他內部或外部頁面。留空代表連結至專案資訊預設頁面。"
-
-#: inc/metaboxes/projects-metabox.php:83
-msgid "Project link"
-msgstr "專案資訊連結"
-
-#: inc/metaboxes/projects-metabox.php:33
-msgid "Project info"
-msgstr "專案資訊"
-
-#: inc/metaboxes/timeline-metabox.php:78
-msgid "Add the date when this timeline event happened."
-msgstr "新增該項大事記發生日期。"
-
-#: inc/metaboxes/timeline-metabox.php:77
-msgid "Event icon"
-msgstr "大事記圖示"
-
-#: inc/metaboxes/timeline-metabox.php:34
-msgid "Timeline info"
-msgstr "大事記資訊"
-
-#: inc/metaboxes/testimonials-metabox.php:79
-msgid "Enter your client's function/company name"
-msgstr "輸入客戶職能及公司名稱"
-
-#: inc/metaboxes/testimonials-metabox.php:78
-msgid "Client function/Company name"
-msgstr "客戶職能及公司名稱"
-
-#: inc/metaboxes/employees-metabox.php:112
-msgid "Employee Google Plus"
-msgstr "員工的 Google+"
-
-#: inc/metaboxes/employees-metabox.php:104
-msgid "Add a link here if you want the employee name to link somewhere."
-msgstr "如果員工名稱要連結至其他地方，請在這裡加入該項連結。"
-
-#: inc/metaboxes/employees-metabox.php:103
-msgid "Employee Link"
-msgstr "員工資訊相關連結"
-
-#: inc/metaboxes/employees-metabox.php:101
-msgid "Employee Linkedin"
-msgstr "員工的 Linkedin"
-
-#: inc/metaboxes/employees-metabox.php:99
-msgid "Employee Twitter"
-msgstr "員工的 Twitter"
-
-#: inc/metaboxes/employees-metabox.php:97
-msgid "Employee Facebook"
-msgstr "員工的 Facebook"
-
-#: inc/metaboxes/employees-metabox.php:95
-msgid "Employee position"
-msgstr "員工職位"
-
-#: inc/metaboxes/employees-metabox.php:33
-msgid "Employee info"
-msgstr "員工資訊"
 
 #: inc/metaboxes/singles-metabox.php:114
 msgid "Hide the footer (widget areas and copyright)?"
@@ -95,100 +55,25 @@ msgstr "隱藏文章標題"
 msgid "Hide the menu bar?"
 msgstr "隱藏選單列"
 
-#: inc/metaboxes/singles-metabox.php:95
-msgid "Here you can control the options just for this page/post."
-msgstr "這裡可以控制這篇文章/頁面的相關設定。"
+#. Author URI of the plugin
+msgid "http://athemes.com"
+msgstr "https://athemes.com"
 
-#: inc/metaboxes/singles-metabox.php:36
-msgid "Post/page options"
-msgstr "文章/頁面設定"
+#. Author of the plugin
+msgid "aThemes"
+msgstr "aThemes"
 
-#: inc/metaboxes/clients-metabox.php:77
-msgid "Add a link for the client's website here [optional]"
-msgstr "在這裡填入客戶網站的連結 (選填)"
+#. Description of the plugin
+msgid "Registers custom post types and custom fields for the aThemes themes"
+msgstr "為 aThemes 佈景主題註冊自訂內容類型及自訂欄位。"
 
-#: inc/metaboxes/clients-metabox.php:76
-msgid "Client link"
-msgstr "客戶連結"
+#. Plugin URI of the plugin
+msgid "http://athemes.com/plugins/athemes-toolbox"
+msgstr "https://tw.wordpress.org/plugins/athemes-toolbox"
 
-#: inc/metaboxes/clients-metabox.php:33
-#: inc/metaboxes/testimonials-metabox.php:33
-msgid "Client info"
-msgstr "客戶資訊"
-
-#: inc/metaboxes/services-metabox.php:87
-msgid "You can link your service to a page of your choice by entering the URL in this field"
-msgstr "將服務項目連結至這個欄位中輸入的網址"
-
-#: inc/metaboxes/services-metabox.php:86
-msgid "Service link"
-msgstr "服務資訊連結"
-
-#: inc/metaboxes/services-metabox.php:82
-msgid "Example: <strong>icon-mobile</strong>. Full list of icons is <a href=\"//athemes.com/documentation/et-icons/\" target=\"_blank\">here</a>"
-msgstr "使用範例: <strong>icon-mobile</strong>。完整圖示請參閱<a href=\"//athemes.com/documentation/et-icons/\" target=\"_blank\">這份清單</a>。"
-
-#: inc/metaboxes/services-metabox.php:80
-msgid "Example: <strong>fa-android</strong>. Full list of icons is <a href=\"https://fontawesome.com/cheatsheet\" target=\"_blank\">here</a>"
-msgstr "使用範例: <strong>fa-android</strong>。完整圖示請參閱<a href=\"https://fontawesome.com/cheatsheet\" target=\"_blank\">這份清單</a>。"
-
-#: inc/metaboxes/services-metabox.php:77
-msgid "Service icon"
-msgstr "服務項目圖示"
-
-#: inc/metaboxes/services-metabox.php:33
-msgid "Service info"
-msgstr "服務項目資訊"
-
-#: inc/post-type-projects.php:47
-msgid "A post type for your projects"
-msgstr "用於建立專案資訊的內容類型"
-
-#: inc/post-type-projects.php:46
-msgid "Project"
-msgstr "專案資訊"
-
-#: inc/post-type-projects.php:32
-msgid "Search Project"
-msgstr "搜尋專案資訊"
-
-#: inc/post-type-projects.php:31
-msgid "View Project"
-msgstr "檢視專案資訊"
-
-#: inc/post-type-projects.php:30
-msgid "Update Project"
-msgstr "更新專案資訊"
-
-#: inc/post-type-projects.php:29
-msgid "Edit Project"
-msgstr "編輯專案資訊"
-
-#: inc/post-type-projects.php:28
-msgid "New Project"
-msgstr "建立專案資訊"
-
-#: inc/post-type-projects.php:26 inc/post-type-projects.php:27
-msgid "Add New Project"
-msgstr "建立專案資訊"
-
-#: inc/post-type-projects.php:25
-msgid "All Projects"
-msgstr "全部專案資訊"
-
-#: inc/post-type-projects.php:21 inc/post-type-projects.php:22
-msgid "Projects"
-msgstr "專案資訊"
-
-#: inc/post-type-projects.php:20
-msgctxt "Post Type Singular Name"
-msgid "Project"
-msgstr "專案資訊"
-
-#: inc/post-type-projects.php:19
-msgctxt "Post Type General Name"
-msgid "Projects"
-msgstr "專案資訊"
+#. Plugin Name of the plugin
+msgid "Athemes Toolbox"
+msgstr "Athemes Toolbox"
 
 #: inc/post-type-timeline.php:47
 msgid "A post type for your timeline events"
@@ -240,55 +125,55 @@ msgctxt "Post Type General Name"
 msgid "Timeline Events"
 msgstr "大事記"
 
-#: inc/post-type-employees.php:47
-msgid "A post type for your employees"
-msgstr "用於建立員工資訊的內容類型"
+#: inc/post-type-testimonials.php:47
+msgid "A post type for your testimonials"
+msgstr "用於建立證言的內容類型"
 
-#: inc/post-type-employees.php:46
-msgid "Employee"
-msgstr "員工資訊"
+#: inc/post-type-testimonials.php:46
+msgid "Testimonial"
+msgstr "證言"
 
-#: inc/post-type-employees.php:32
-msgid "Search Employee"
-msgstr "搜尋員工資訊"
+#: inc/post-type-testimonials.php:32
+msgid "Search Testimonial"
+msgstr "搜尋證言"
 
-#: inc/post-type-employees.php:31
-msgid "View Employee"
-msgstr "檢視員工資訊"
+#: inc/post-type-testimonials.php:31
+msgid "View Testimonial"
+msgstr "檢視證言"
 
-#: inc/post-type-employees.php:30
-msgid "Update Employee"
-msgstr "更新員工資訊"
+#: inc/post-type-testimonials.php:30
+msgid "Update Testimonial"
+msgstr "更新證言"
 
-#: inc/post-type-employees.php:29
-msgid "Edit Employee"
-msgstr "編輯員工資訊"
+#: inc/post-type-testimonials.php:29
+msgid "Edit Testimonial"
+msgstr "編輯證言"
 
-#: inc/post-type-employees.php:28
-msgid "New Employee"
-msgstr "新增員工資訊"
+#: inc/post-type-testimonials.php:28
+msgid "New Testimonial"
+msgstr "新增證言"
 
-#: inc/post-type-employees.php:26 inc/post-type-employees.php:27
-msgid "Add New Employee"
-msgstr "新增員工資訊"
+#: inc/post-type-testimonials.php:26 inc/post-type-testimonials.php:27
+msgid "Add New Testimonial"
+msgstr "新增證言"
 
-#: inc/post-type-employees.php:25
-msgid "All Employees"
-msgstr "全部員工資訊"
+#: inc/post-type-testimonials.php:25
+msgid "All Testimonials"
+msgstr "全部證言"
 
-#: inc/post-type-employees.php:21 inc/post-type-employees.php:22
-msgid "Employees"
-msgstr "員工資訊"
+#: inc/post-type-testimonials.php:21 inc/post-type-testimonials.php:22
+msgid "Testimonials"
+msgstr "證言"
 
-#: inc/post-type-employees.php:20
+#: inc/post-type-testimonials.php:20
 msgctxt "Post Type Singular Name"
-msgid "Employee"
-msgstr "員工資訊"
+msgid "Testimonial"
+msgstr "證言"
 
-#: inc/post-type-employees.php:19
+#: inc/post-type-testimonials.php:19
 msgctxt "Post Type General Name"
-msgid "Employees"
-msgstr "員工資訊"
+msgid "Testimonials"
+msgstr "證言"
 
 #: inc/post-type-services.php:47
 msgid "A post type for your services"
@@ -340,55 +225,105 @@ msgctxt "Post Type General Name"
 msgid "Services"
 msgstr "服務項目"
 
-#: inc/post-type-testimonials.php:47
-msgid "A post type for your testimonials"
-msgstr "用於建立證言的內容類型"
+#: inc/post-type-projects.php:47
+msgid "A post type for your projects"
+msgstr "用於建立專案資訊的內容類型"
 
-#: inc/post-type-testimonials.php:46
-msgid "Testimonial"
-msgstr "證言"
+#: inc/post-type-projects.php:46
+msgid "Project"
+msgstr "專案資訊"
 
-#: inc/post-type-testimonials.php:32
-msgid "Search Testimonial"
-msgstr "搜尋證言"
+#: inc/post-type-projects.php:32
+msgid "Search Project"
+msgstr "搜尋專案資訊"
 
-#: inc/post-type-testimonials.php:31
-msgid "View Testimonial"
-msgstr "檢視證言"
+#: inc/post-type-projects.php:31
+msgid "View Project"
+msgstr "檢視專案資訊"
 
-#: inc/post-type-testimonials.php:30
-msgid "Update Testimonial"
-msgstr "更新證言"
+#: inc/post-type-projects.php:30
+msgid "Update Project"
+msgstr "更新專案資訊"
 
-#: inc/post-type-testimonials.php:29
-msgid "Edit Testimonial"
-msgstr "編輯證言"
+#: inc/post-type-projects.php:29
+msgid "Edit Project"
+msgstr "編輯專案資訊"
 
-#: inc/post-type-testimonials.php:28
-msgid "New Testimonial"
-msgstr "新增證言"
+#: inc/post-type-projects.php:28
+msgid "New Project"
+msgstr "建立專案資訊"
 
-#: inc/post-type-testimonials.php:26 inc/post-type-testimonials.php:27
-msgid "Add New Testimonial"
-msgstr "新增證言"
+#: inc/post-type-projects.php:26 inc/post-type-projects.php:27
+msgid "Add New Project"
+msgstr "建立專案資訊"
 
-#: inc/post-type-testimonials.php:25
-msgid "All Testimonials"
-msgstr "全部證言"
+#: inc/post-type-projects.php:25
+msgid "All Projects"
+msgstr "全部專案資訊"
 
-#: inc/post-type-testimonials.php:21 inc/post-type-testimonials.php:22
-msgid "Testimonials"
-msgstr "證言"
+#: inc/post-type-projects.php:21 inc/post-type-projects.php:22
+msgid "Projects"
+msgstr "專案資訊"
 
-#: inc/post-type-testimonials.php:20
+#: inc/post-type-projects.php:20
 msgctxt "Post Type Singular Name"
-msgid "Testimonial"
-msgstr "證言"
+msgid "Project"
+msgstr "專案資訊"
 
-#: inc/post-type-testimonials.php:19
+#: inc/post-type-projects.php:19
 msgctxt "Post Type General Name"
-msgid "Testimonials"
-msgstr "證言"
+msgid "Projects"
+msgstr "專案資訊"
+
+#: inc/post-type-employees.php:47
+msgid "A post type for your employees"
+msgstr "用於建立員工資訊的內容類型"
+
+#: inc/post-type-employees.php:46
+msgid "Employee"
+msgstr "員工資訊"
+
+#: inc/post-type-employees.php:32
+msgid "Search Employee"
+msgstr "搜尋員工資訊"
+
+#: inc/post-type-employees.php:31
+msgid "View Employee"
+msgstr "檢視員工資訊"
+
+#: inc/post-type-employees.php:30
+msgid "Update Employee"
+msgstr "更新員工資訊"
+
+#: inc/post-type-employees.php:29
+msgid "Edit Employee"
+msgstr "編輯員工資訊"
+
+#: inc/post-type-employees.php:28
+msgid "New Employee"
+msgstr "新增員工資訊"
+
+#: inc/post-type-employees.php:26 inc/post-type-employees.php:27
+msgid "Add New Employee"
+msgstr "新增員工資訊"
+
+#: inc/post-type-employees.php:25
+msgid "All Employees"
+msgstr "全部員工資訊"
+
+#: inc/post-type-employees.php:21 inc/post-type-employees.php:22
+msgid "Employees"
+msgstr "員工資訊"
+
+#: inc/post-type-employees.php:20
+msgctxt "Post Type Singular Name"
+msgid "Employee"
+msgstr "員工資訊"
+
+#: inc/post-type-employees.php:19
+msgctxt "Post Type General Name"
+msgid "Employees"
+msgstr "員工資訊"
 
 #: inc/post-type-clients.php:55
 msgid "A post type for your clients"
@@ -398,69 +333,69 @@ msgstr "用於建立客戶資訊的內容類型"
 msgid "Client"
 msgstr "客戶資訊"
 
-#: inc/post-type-clients.php:51 inc/post-type-testimonials.php:43
-#: inc/post-type-services.php:43 inc/post-type-employees.php:43
-#: inc/post-type-timeline.php:43 inc/post-type-projects.php:43
+#: inc/post-type-testimonials.php:43 inc/post-type-clients.php:51
+#: inc/post-type-services.php:43 inc/post-type-timeline.php:43
+#: inc/post-type-projects.php:43 inc/post-type-employees.php:43
 msgid "Filter items list"
 msgstr "篩選項目清單"
 
-#: inc/post-type-clients.php:50 inc/post-type-testimonials.php:42
-#: inc/post-type-services.php:42 inc/post-type-employees.php:42
-#: inc/post-type-timeline.php:42 inc/post-type-projects.php:42
+#: inc/post-type-testimonials.php:42 inc/post-type-clients.php:50
+#: inc/post-type-services.php:42 inc/post-type-timeline.php:42
+#: inc/post-type-projects.php:42 inc/post-type-employees.php:42
 msgid "Items list navigation"
 msgstr "項目清單導覽列"
 
-#: inc/post-type-clients.php:49 inc/post-type-testimonials.php:41
-#: inc/post-type-services.php:41 inc/post-type-employees.php:41
-#: inc/post-type-timeline.php:41 inc/post-type-projects.php:41
+#: inc/post-type-testimonials.php:41 inc/post-type-clients.php:49
+#: inc/post-type-services.php:41 inc/post-type-timeline.php:41
+#: inc/post-type-projects.php:41 inc/post-type-employees.php:41
 msgid "Items list"
 msgstr "項目清單"
 
-#: inc/post-type-clients.php:48 inc/post-type-testimonials.php:40
-#: inc/post-type-services.php:40 inc/post-type-employees.php:40
-#: inc/post-type-timeline.php:40 inc/post-type-projects.php:40
+#: inc/post-type-testimonials.php:40 inc/post-type-clients.php:48
+#: inc/post-type-services.php:40 inc/post-type-timeline.php:40
+#: inc/post-type-projects.php:40 inc/post-type-employees.php:40
 msgid "Uploaded to this item"
 msgstr "已上傳至這個項目"
 
-#: inc/post-type-clients.php:47 inc/post-type-testimonials.php:39
-#: inc/post-type-services.php:39 inc/post-type-employees.php:39
-#: inc/post-type-timeline.php:39 inc/post-type-projects.php:39
+#: inc/post-type-testimonials.php:39 inc/post-type-clients.php:47
+#: inc/post-type-services.php:39 inc/post-type-timeline.php:39
+#: inc/post-type-projects.php:39 inc/post-type-employees.php:39
 msgid "Insert into item"
 msgstr "插入至項目"
 
-#: inc/post-type-clients.php:46 inc/post-type-testimonials.php:38
-#: inc/post-type-services.php:38 inc/post-type-employees.php:38
-#: inc/post-type-timeline.php:38 inc/post-type-projects.php:38
+#: inc/post-type-testimonials.php:38 inc/post-type-clients.php:46
+#: inc/post-type-services.php:38 inc/post-type-timeline.php:38
+#: inc/post-type-projects.php:38 inc/post-type-employees.php:38
 msgid "Use as featured image"
 msgstr "設定為精選圖片"
 
-#: inc/post-type-clients.php:45 inc/post-type-testimonials.php:37
-#: inc/post-type-services.php:37 inc/post-type-employees.php:37
-#: inc/post-type-timeline.php:37 inc/post-type-projects.php:37
+#: inc/post-type-testimonials.php:37 inc/post-type-clients.php:45
+#: inc/post-type-services.php:37 inc/post-type-timeline.php:37
+#: inc/post-type-projects.php:37 inc/post-type-employees.php:37
 msgid "Remove featured image"
 msgstr "移除精選圖片"
 
-#: inc/post-type-clients.php:44 inc/post-type-testimonials.php:36
-#: inc/post-type-services.php:36 inc/post-type-employees.php:36
-#: inc/post-type-timeline.php:36 inc/post-type-projects.php:36
+#: inc/post-type-testimonials.php:36 inc/post-type-clients.php:44
+#: inc/post-type-services.php:36 inc/post-type-timeline.php:36
+#: inc/post-type-projects.php:36 inc/post-type-employees.php:36
 msgid "Set featured image"
 msgstr "設定精選圖片"
 
-#: inc/post-type-clients.php:43 inc/post-type-testimonials.php:35
-#: inc/post-type-services.php:35 inc/post-type-employees.php:35
-#: inc/post-type-timeline.php:35 inc/post-type-projects.php:35
+#: inc/post-type-testimonials.php:35 inc/post-type-clients.php:43
+#: inc/post-type-services.php:35 inc/post-type-timeline.php:35
+#: inc/post-type-projects.php:35 inc/post-type-employees.php:35
 msgid "Featured Image"
 msgstr "精選圖片"
 
-#: inc/post-type-clients.php:42 inc/post-type-testimonials.php:34
-#: inc/post-type-services.php:34 inc/post-type-employees.php:34
-#: inc/post-type-timeline.php:34 inc/post-type-projects.php:34
+#: inc/post-type-testimonials.php:34 inc/post-type-clients.php:42
+#: inc/post-type-services.php:34 inc/post-type-timeline.php:34
+#: inc/post-type-projects.php:34 inc/post-type-employees.php:34
 msgid "Not found in Trash"
 msgstr "在回收桶中找不到符合條件的項目"
 
-#: inc/post-type-clients.php:41 inc/post-type-testimonials.php:33
-#: inc/post-type-services.php:33 inc/post-type-employees.php:33
-#: inc/post-type-timeline.php:33 inc/post-type-projects.php:33
+#: inc/post-type-testimonials.php:33 inc/post-type-clients.php:41
+#: inc/post-type-services.php:33 inc/post-type-timeline.php:33
+#: inc/post-type-projects.php:33 inc/post-type-employees.php:33
 msgid "Not found"
 msgstr "找不到符合條件的項目"
 
@@ -492,15 +427,15 @@ msgstr "新增客戶資訊"
 msgid "All Clients"
 msgstr "全部客戶資訊"
 
-#: inc/post-type-clients.php:32 inc/post-type-testimonials.php:24
-#: inc/post-type-services.php:24 inc/post-type-employees.php:24
-#: inc/post-type-timeline.php:24 inc/post-type-projects.php:24
+#: inc/post-type-testimonials.php:24 inc/post-type-clients.php:32
+#: inc/post-type-services.php:24 inc/post-type-timeline.php:24
+#: inc/post-type-projects.php:24 inc/post-type-employees.php:24
 msgid "Parent Item:"
 msgstr "上一層項目:"
 
-#: inc/post-type-clients.php:31 inc/post-type-testimonials.php:23
-#: inc/post-type-services.php:23 inc/post-type-employees.php:23
-#: inc/post-type-timeline.php:23 inc/post-type-projects.php:23
+#: inc/post-type-testimonials.php:23 inc/post-type-clients.php:31
+#: inc/post-type-services.php:23 inc/post-type-timeline.php:23
+#: inc/post-type-projects.php:23 inc/post-type-employees.php:23
 msgid "Item Archives"
 msgstr "項目彙整"
 
@@ -518,22 +453,111 @@ msgctxt "Post Type General Name"
 msgid "Clients"
 msgstr "客戶資訊"
 
-#. Author URI of the plugin
-msgid "http://athemes.com"
-msgstr "https://athemes.com"
+#: inc/metaboxes/timeline-metabox.php:98
+msgid "Select a color for the event icon."
+msgstr "選取大事記圖示色彩。"
 
-#. Author of the plugin
-msgid "aThemes"
-msgstr "aThemes"
+#: inc/metaboxes/services-metabox.php:80
+msgid "Example: <strong>fa-android</strong>. Full list of icons is <a href=\"https://fontawesome.com/cheatsheet\" target=\"_blank\">here</a>"
+msgstr "使用範例: <strong>fa-android</strong>。完整圖示請參閱<a href=\"https://fontawesome.com/cheatsheet\" target=\"_blank\">這份清單</a>。"
 
-#. Description of the plugin
-msgid "Registers custom post types and custom fields for the aThemes themes"
-msgstr "為 aThemes 佈景主題註冊自訂內容類型及自訂欄位。"
+#: inc/metaboxes/timeline-metabox.php:89
+msgid "Add the date when this timeline event happened."
+msgstr "新增該項大事記發生日期。"
 
-#. Plugin URI of the plugin
-msgid "http://athemes.com/plugins/athemes-toolbox"
-msgstr "https://tw.wordpress.org/plugins/athemes-toolbox"
+#: inc/metaboxes/timeline-metabox.php:93
+msgid "Event icon"
+msgstr "大事記圖示"
 
-#. Plugin Name of the plugin
-msgid "Athemes Toolbox"
-msgstr "Athemes Toolbox"
+#: inc/metaboxes/timeline-metabox.php:34
+msgid "Timeline info"
+msgstr "大事記資訊"
+
+#: inc/metaboxes/testimonials-metabox.php:79
+msgid "Enter your client's function/company name"
+msgstr "輸入客戶職能及公司名稱"
+
+#: inc/metaboxes/testimonials-metabox.php:78
+msgid "Client function/Company name"
+msgstr "客戶職能及公司名稱"
+
+#: inc/metaboxes/singles-metabox.php:95
+msgid "Here you can control the options just for this page/post."
+msgstr "這裡可以控制這篇文章/頁面的相關設定。"
+
+#: inc/metaboxes/singles-metabox.php:36
+msgid "Post/page options"
+msgstr "文章/頁面設定"
+
+#: inc/metaboxes/services-metabox.php:87
+msgid "You can link your service to a page of your choice by entering the URL in this field"
+msgstr "將服務項目連結至這個欄位中輸入的網址"
+
+#: inc/metaboxes/services-metabox.php:86
+msgid "Service link"
+msgstr "服務資訊連結"
+
+#: inc/metaboxes/services-metabox.php:82
+msgid "Example: <strong>icon-mobile</strong>. Full list of icons is <a href=\"//athemes.com/documentation/et-icons/\" target=\"_blank\">here</a>"
+msgstr "使用範例: <strong>icon-mobile</strong>。完整圖示請參閱<a href=\"//athemes.com/documentation/et-icons/\" target=\"_blank\">這份清單</a>。"
+
+#: inc/metaboxes/services-metabox.php:77
+msgid "Service icon"
+msgstr "服務項目圖示"
+
+#: inc/metaboxes/services-metabox.php:33
+msgid "Service info"
+msgstr "服務項目資訊"
+
+#: inc/metaboxes/projects-metabox.php:84
+msgid "Add an URL here to make this project link to another page (internal or external). Leave it empty and it will default to its own page."
+msgstr "在這裡加入的連結，能將專案資訊連結至其他內部或外部頁面。留空代表連結至專案資訊預設頁面。"
+
+#: inc/metaboxes/projects-metabox.php:83
+msgid "Project link"
+msgstr "專案資訊連結"
+
+#: inc/metaboxes/projects-metabox.php:33
+msgid "Project info"
+msgstr "專案資訊"
+
+#: inc/metaboxes/employees-metabox.php:104
+msgid "Add a link here if you want the employee name to link somewhere."
+msgstr "如果員工名稱要連結至其他地方，請在這裡加入該項連結。"
+
+#: inc/metaboxes/employees-metabox.php:103
+msgid "Employee Link"
+msgstr "員工資訊相關連結"
+
+#: inc/metaboxes/employees-metabox.php:101
+msgid "Employee Linkedin"
+msgstr "員工的 Linkedin"
+
+#: inc/metaboxes/employees-metabox.php:99
+msgid "Employee Twitter"
+msgstr "員工的 Twitter"
+
+#: inc/metaboxes/employees-metabox.php:97
+msgid "Employee Facebook"
+msgstr "員工的 Facebook"
+
+#: inc/metaboxes/employees-metabox.php:95
+msgid "Employee position"
+msgstr "員工職位"
+
+#: inc/metaboxes/employees-metabox.php:33
+msgid "Employee info"
+msgstr "員工資訊"
+
+#: inc/metaboxes/clients-metabox.php:77
+msgid "Add a link for the client's website here [optional]"
+msgstr "在這裡填入客戶網站的連結 (選填)"
+
+#: inc/metaboxes/clients-metabox.php:76
+msgid "Client link"
+msgstr "客戶連結"
+
+#: inc/metaboxes/testimonials-metabox.php:33
+#: inc/metaboxes/clients-metabox.php:33
+msgid "Client info"
+msgstr "客戶資訊"

@@ -56,6 +56,7 @@ define( 'WP_CACHE_KEY_SALT', 'T+r+cJMuF@g[^<(2:SWIj3U[EMc0,=^6?a84+[BQaNhS}+zsnr
  * a unique prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix = 'wp_';
+define( 'WP_AUTO_UPDATE_CORE', true );
 /* That's all, stop editing! Happy publishing. */
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {

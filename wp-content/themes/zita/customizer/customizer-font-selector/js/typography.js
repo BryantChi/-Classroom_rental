@@ -1,5 +1,5 @@
 ( function($){
 	$( document ).ready(function (){
-		$( '.themehunk-typography-select' ).onelineSelect();
+		$( '.zita-typography-select' ).zitaSelect();
 	} );
 } )( jQuery );

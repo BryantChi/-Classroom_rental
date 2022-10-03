@@ -3,9 +3,9 @@ Theme Name: Zita
 Theme URI: https://wpzita.com/
 Author: WpZita Team
 Description: Zita is a super fast and highly customizable theme. Best Suitable for creating any type of website such a corporate, store, agency, blog, portfolio, restaurant, wedding, construction, hospital, school, interior, car workshop, life coach, wine shop, barber shop, furniture shop, yoga, resume, charity, digital marketing etc. Zita includes 8 unique header layout and 8 footer widget layout which makes it extremely powerful. Zita works with any of your favourite page builder like Elementor, Visual Composer, Beaver Builder, SiteOrigin, Divi, Brizy etc. Some more amazing feature are Woocommerce ready, RTL Ready, Full Responsive, Edit settings in tablet & mobile, Top header, Bottom header, Top footer, Bottom Footer, Transparent Header. Looking for perfect base theme? Looking for perfect multipurpose theme? No need to Look further! Just go with Zita demos:https://wpzita.com/. Zita is built with best SEO practice and best friend of Woocommerce and Elementor.
-Version: 1.4.2
+Version: 1.4.9
 Requires at least: 4.5
-Tested up to: 5.4
+Tested up to: 5.5.1
 Requires PHP: 5.2.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -4234,6 +4234,9 @@ position: relative;
 display:none;
 position: relative;
 }
+#comments .comment-list li{
+display: flow-root;
+}
 .comment-metadata,.comment-content,.reply,.comment-meta .fn{
 width:100%;
 float:left;
@@ -6190,9 +6193,17 @@ width:100px;
 .wpl_property_manager .chosen-container {
     max-width: 80%;
 }
-
-
+.thunk-comment-paginate{
+  position: relative;
+  margin: 10px 0;
+}
+.thunk-comment-paginate .next.page-numbers{
+  float: initial;
+}
 @media screen and (max-width:1024px){
+.pan-content::-webkit-scrollbar-thumb{
+visibility:visible;
+}
 .mhdrleftpan .sider.left{
 border-right:0px;
 }
@@ -6283,6 +6294,13 @@ table.cart td.actions .coupon {
 }
 }
 @media screen and (max-width:768px){
+body.mobile-pan-active {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body.mobile-pan-active #page.zita-site{
+display: contents;
+}
 .woocommerce.woocommerce-page .zita-single-product-content-center .related ul.products li.product, 
 .woocommerce.woocommerce-page .zita-single-product-content-center .related ul.products li.product {
     margin: 0 1% 2em 0;
@@ -6495,11 +6513,226 @@ line-height:normal!important;
   display:none;
 }
 
+/*min bar header responsive style*/
+.mhdminbarleft #page.zita-site{
+margin-left:0px!important;
+left:auto;
+}
+header.mhdminbarleft .min-bar-header{
+padding:0;
+}
+header.mhdminbarleft .min-bar-header.leftminbar{
+height:auto;
+width: 100%;
+z-index: 0;
+}
+header.mhdminbarleft .min-bar-container{
+text-align: inherit;
+-js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+header.mhdminbarleft .min-bar-col2 {
+    -webkit-transform: inherit;
+    -moz-transform: inherit;
+    transform: inherit;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+   position: relative;
+   top: 0;
+   left: 0;
+       width: 75%!important;
+}
+header.mhdminbarleft .container{
+max-width: 1200px;
+padding-left: 20px;
+padding-right: 20px;
+}
+header.mhdminbarleft .min-bar-col1{
+order:2;
+    order: 2;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+header.mhdminbarleft .min-bar-col2{
+order:1;
+padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mobile-pan-active header.mhdminbarleft {
+    left: 0px!important;
+}
+.mhdminbarleft .pan-content{
+padding:0;
+position: relative;
+background: #fff;
+}
+
+/*right-minbar*/
+.mhdminbarright #page.zita-site {
+    margin-right:0px;
+}
+header.mhdminbarright .min-bar-header{
+padding:0;
+}
+header.mhdminbarright .min-bar-header.rightminbar{
+height:auto;
+width: 100%;
+z-index: 0;
+}
+header.mhdminbarright .min-bar-container{
+text-align:inherit;
+-js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+header.mhdminbarright .min-bar-col2 {
+    -webkit-transform: inherit;
+    -moz-transform: inherit;
+    transform: inherit;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+   position: relative;
+   top: 0;
+   left: 0;
+}
+header.mhdminbarright .container{
+max-width: 1200px;
+padding-left: 20px;
+padding-right: 20px;
+}
+header.mhdminbarright .min-bar-col1{
+order:2;
+    order: 2;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+header.mhdminbarright .min-bar-col2{
+order:1;
+width: 75%!important;
+padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mobile-pan-active header.mhdminbarright {
+right:auto!important;
+left:0px!important;
+  -webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition:left .2s ease-in-out;
+}
+.mhdminbarright .pan-content{
+padding:0;
+position: relative;
+background: #fff;
+}
+header.mhdminbarright {
+    left: -270px!important;
+    right: auto;
+    -webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition:left .2s ease-in-out;
+}
+.mobile-pan-active.mhdminbarright #page.zita-site{
+    right: 0px!important;
+    -webkit-transition: left .2s ease-in-out;
+    -moz-transition: left .2s ease-in-out;
+    transition: left .2s ease-in-out;
+    left: 0!important;
+}
+header.mhdminbarleft .min-bar-col1,
+header.mhdminbarright .min-bar-col1{
+  -js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+flex:1;
+justify-content: flex-end;
+}
+.cart-pan-active header.mhdminbarleft .zita-cart{
+left:0;
+}
+.cart-pan-active header.mhdminbarright .zita-cart{
+right:0;
+}
+.mhdminbarright #content.site-content,.mhdminbarleft #content.site-content {
+    display: block;
+    margin-top: 30px;
+}
 }
 @media screen and (max-width: 600px){
 .logged-in #page.zita-site{
     display: contents;
 }
+
 .woocommerce div.product.zita-single-product-tab-vertical .woocommerce-tabs .panel{
 margin-left:0;
 border:0px;

@@ -347,9 +347,7 @@ jQuery('.cart-close a').click(function (e){
 jQuery('body').removeClass('cart-pan-active');
 });
 });
-jQuery(window).on('resize', function(){
-  jQuery('body').removeClass('cart-pan-active');
-});
+
 });
 
 /**************************************************/

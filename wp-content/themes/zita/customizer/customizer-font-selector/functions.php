@@ -10,7 +10,7 @@
  */
 function zita_get_standard_fonts(){
 	return apply_filters(
-		'themehunk_standard_fonts_array', array(
+		'zita_standard_fonts_array', array(
 			'Arial, Helvetica, sans-serif',
 			'Arial Black, Gadget, sans-serif',
 			'Bookman Old Style, serif',
@@ -40,7 +40,7 @@ function zita_get_standard_fonts(){
  */
 function zita_get_google_fonts_array() {
 	return apply_filters(
-		'themehunk_google_fonts_array',
+		'zita_google_fonts_array',
 		// Updated on 17/07/19
 		array(
 			'ABeeZee',

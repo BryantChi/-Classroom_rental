@@ -7,7 +7,7 @@ if( ! class_exists( 'WP_Customize_Control' ) ){
 	return;
 }
 /**
- * Class Shopline_pro_Font_Selector
+ * Class Zita_Font_Selector
  */
 class Zita_Font_Selector extends WP_Customize_Control{
 	/**
@@ -33,7 +33,7 @@ class Zita_Font_Selector extends WP_Customize_Control{
 				<span class="description customize-control-description"><?php echo wp_kses_post( $this->description ); ?></span>
 			<?php endif; ?>
 
-			<select class="themehunk-typography-select" <?php $this->link(); ?>>
+			<select class="zita-typography-select" <?php $this->link(); ?>>
 				<option value="" 
 				<?php
 				if ( ! $this_val ) {

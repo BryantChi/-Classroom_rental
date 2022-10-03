@@ -10,7 +10,7 @@
  * Plugin Name:       Athemes Toolbox
  * Plugin URI:        http://athemes.com/plugins/athemes-toolbox
  * Description:       Registers custom post types and custom fields for the aThemes themes
- * Version:           1.06
+ * Version:           1.08
  * Author:            aThemes
  * Author URI:        http://athemes.com
  * License:           GPL-2.0+

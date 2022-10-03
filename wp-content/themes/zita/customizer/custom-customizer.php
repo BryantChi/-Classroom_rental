@@ -369,7 +369,7 @@ class Zita_Widegt_Redirect extends WP_Customize_Control {
     public $button_text = '';
 
     /**
-     * Hestia_Display_Text constructor.
+     * Zita_Display_Text constructor.
      *
      * @param WP_Customize_Manager $manager Customizer manager.
      * @param string               $id Control id.

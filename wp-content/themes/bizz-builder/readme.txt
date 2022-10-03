@@ -1,9 +1,9 @@
 === Theme: Bizz Builder ===
 Contributors: wpzita
 Tags: two-columns, right-sidebar, custom-menu, custom-background, editor-style, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, blog, photography, threaded-comments, custom-colors 
-Requires at least: 4.0
-Tested up to: 5.4
-Stable tag: 1.0.3
+Requires at least: 4.5
+Tested up to: 5.5.1
+Stable tag: 1.0.5
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -45,6 +45,13 @@ Licensed under the CCO license.
 https://stocksnap.io/license
 
 == Changelog ==
+
+== 1.0.5  =
+* Issue Fixed.
+
+== 1.0.4  =
+* Keyboard navigation improved.
+
 == 1.0.3  =
 * Keyboard navigation improved.
 

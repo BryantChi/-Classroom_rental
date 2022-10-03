@@ -63,20 +63,46 @@ class Athemes_Toolbox_Timeline_Events {
 				return $post_id;
 		}
 
-		$date 	= isset( $_POST['athemes_toolbox_event_date'] ) ? sanitize_text_field($_POST['athemes_toolbox_event_date']) : false;
+		$date 			= isset( $_POST['athemes_toolbox_event_date'] ) ? sanitize_text_field($_POST['athemes_toolbox_event_date']) : false;
+		$icon 			= isset( $_POST['athemes_toolbox_event_icon'] ) ? sanitize_text_field($_POST['athemes_toolbox_event_icon']) : false;
+		$icon_color 	= isset( $_POST['athemes_toolbox_event_icon_color'] ) ? sanitize_text_field($_POST['athemes_toolbox_event_icon_color']) : false;
+		$link 			= isset( $_POST['athemes_toolbox_event_link'] ) ? sanitize_text_field($_POST['athemes_toolbox_event_link']) : false;
 
 		update_post_meta( $post_id, 'wpcf-event-date', $date );
+		update_post_meta( $post_id, 'wpcf-event-icon', $icon );
+		update_post_meta( $post_id, 'wpcf-event-icon-color', $icon_color );
+		update_post_meta( $post_id, 'wpcf-event-url', $link );
+
 	}
 
 	public function render_meta_box_content( $post ) {
 		wp_nonce_field( 'athemes_toolbox_timeline_events', 'athemes_toolbox_timeline_events_nonce' );
 		
 		$date 	= get_post_meta( $post->ID, 'wpcf-event-date', true );
+		$icon 	= get_post_meta( $post->ID, 'wpcf-event-icon', true );
+		$icon_color 	= get_post_meta( $post->ID, 'wpcf-event-icon-color', true );
+		$link 	= get_post_meta( $post->ID, 'wpcf-event-url', true );
+
 	?>
 
-		<p><strong><label for="athemes_toolbox_event_date"><?php _e( 'Event icon', 'athemes_toolbox' ); ?></label></strong></p>
+		<p><strong><label for="athemes_toolbox_event_date"><?php _e( 'Event date', 'athemes_toolbox' ); ?></label></strong></p>
 		<p><em><?php echo __('Add the date when this timeline event happened.'); ?></em></p>
 		<p><input type="text" class="widefat" id="athemes_toolbox_event_date" name="athemes_toolbox_event_date" value="<?php echo esc_html($date); ?>"></p>
+
+		<?php if ( $this->check_theme() ) : ?>
+		<p><strong><label for="athemes_toolbox_event_icon"><?php _e( 'Event icon', 'athemes_toolbox' ); ?></label></strong></p>
+		<p><em><?php echo __('Add an icon for this event (example: fa-android). Full list of icons is <a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/">here</a>.'); ?></em></p>
+		<p><input type="text" class="widefat" id="athemes_toolbox_event_icon" name="athemes_toolbox_event_icon" value="<?php echo esc_html($icon); ?>"></p>
+
+		<p><strong><label for="athemes_toolbox_event_icon_color"><?php _e( 'Event icon color', 'athemes_toolbox' ); ?></label></strong></p>
+		<p><em><?php echo __('Select a color for the event icon.'); ?></em></p>
+		<p><input type="text" class="widefat" id="athemes_toolbox_event_icon_color" name="athemes_toolbox_event_icon_color" value="<?php echo esc_html($icon_color); ?>"></p>
+
+		<p><strong><label for="athemes_toolbox_event_link"><?php _e( 'Event URL', 'athemes_toolbox' ); ?></label></strong></p>
+		<p><em><?php echo __('You can link this item to a page by adding a custom URL here..'); ?></em></p>
+		<p><input type="text" class="widefat" id="athemes_toolbox_event_link" name="athemes_toolbox_event_link" value="<?php echo esc_url($link); ?>"></p>
+
+		<?php endif; ?>
 
 	<?php
 	}
@@ -85,5 +111,15 @@ class Athemes_Toolbox_Timeline_Events {
 		wp_enqueue_style( 'wp-color-picker');
 		wp_enqueue_script( 'wp-color-picker');		
 	}
+
+	public function check_theme() {
+		$theme  = wp_get_theme();
+		$parent = wp_get_theme()->parent();
+		if ( ($theme == 'Rocked Pro' ) || ($parent == 'Rocked Pro') || ($theme == 'Perth Pro' ) || ($parent == 'Perth Pro') ) {
+			return true;
+		} else {
+			return false;
+		}
+	}	
 
 }

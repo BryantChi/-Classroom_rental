@@ -83,7 +83,7 @@ function talon_custom_styles($custom) {
     $custom 	.= ".main-navigation li { font-size:" . intval($menu_items) . "px; }"."\n";
     $custom 	.= ".so-panel .widget-title { font-size:" . intval($so_widgets_title) . "px; }"."\n";
     $custom 	.= ".post-item .post-content .entry-title { font-size:" . intval($index_post_title) . "px; }"."\n";
-    $custom 	.= ".single .entry-header .entry-title { font-size:" . intval($single_post_title) . "px; }"."\n";
+    $custom 	.= ".single .entry-header .entry-title { font-size: 36px; }"."\n"; //intval($single_post_title)
     $custom 	.= ".widget-area .widget-title span { font-size:" . intval($sidebar_widgets_title) . "px; }"."\n";
 
     if ( class_exists('WooCommerce') && ( is_cart() || is_checkout() ) ) {

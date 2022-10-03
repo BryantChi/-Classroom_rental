@@ -213,7 +213,7 @@ endif;
 /**
  * Customizer defaults
  */
-if ( !function_exists('talon_customizer_defaults') ) :
+// if ( !function_exists('talon_customizer_defaults') ) :
 function talon_customizer_defaults() {
 	$defaults = array(
 		//Colors
@@ -254,7 +254,7 @@ function talon_customizer_defaults() {
 	);
 	return $defaults;
 }
-endif;
+// endif;
 
 /**
  * Implement the Custom Header feature.

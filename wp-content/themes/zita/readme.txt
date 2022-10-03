@@ -2,8 +2,8 @@
 Contributors: wpzita
 Tags: two-columns, right-sidebar, custom-menu, custom-background, editor-style, translation-ready, full-width-template, flexible-header, sticky-post, theme-options, one-column, e-commerce, blog, photography, threaded-comments, custom-colors
 Requires at least: 4.5
-Tested up to: 5.4
-Stable tag: 1.4.2
+Tested up to: 5.5.1
+Stable tag: 1.4.9
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -68,6 +68,28 @@ Yes our theme supports builder
 Yes, this theme is tested with latest version of WordPress, you can use it for your site.
 
 == Changelog ==
+= 1.4.9 =
+* Comment Pagination numbers added.
+
+= 1.4.8 =
+* Comment Pagination Issue Resolved.
+
+= 1.4.7 =
+* Theme color option improved.
+* Page meta box issue fixed.
+
+= 1.4.6 =
+* Compitable with latest wordpress.
+
+= 1.4.5 =
+* Style issue fixed.
+
+= 1.4.4 =
+* Header responsive style improved.
+
+= 1.4.3 =
+* Mobile Pan scrolling issue fixed.
+
 = 1.4.2 =
 * Add to cart button in grouped product issue fixed.
 * Style issue fixed.
@@ -219,5 +241,5 @@ Initial release
 
 == Upgrade Notice ==
 
-= 1.3.5 =
-* iframe height issue fixed.
+= 1.4.9 =
+* Comment Pagination numbers added.

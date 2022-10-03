@@ -23,7 +23,7 @@
         factory(jQuery);
     }
 
-    jQuery.fn.onelineSelect = jQuery.fn.select2;
+    jQuery.fn.zitaSelect = jQuery.fn.select2;
 
     if (existingVersion) {
         delete jQuery.fn.select2;

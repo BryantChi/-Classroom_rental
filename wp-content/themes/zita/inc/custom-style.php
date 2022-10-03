@@ -25,7 +25,7 @@ $zita_style .= "a:hover,.inifiniteLoader,mark,.single .nav-previous:hover:before
 .woocommerce button.button, 
 .woocommerce input.button,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.zita-cart p.buttons a,.wc-proceed-to-checkout .button.alt.wc-forward,.main-header .main-header-bar a.main-header-btn{border-color:{$zita_theme_clr};background-color:{$zita_theme_clr}} #move-to-top,.zta-date-meta .posted-on,.mhdrleftpan .header-pan-icon span,.mhdrrightpan .header-pan-icon span{background:{$zita_theme_clr}}.inifiniteLoader,.summary .yith-wcwl-wishlistaddedbrowse a, .summary .yith-wcwl-wishlistexistsbrowse a{color:{$zita_theme_clr}}
   .zita_overlayloader{background:{$zita_loader_bg_clr}} .woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
-.woocommerce .widget_price_filter .ui-slider .ui-slider-handle{background:{$zita_theme_clr}}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,#move-to-top{background:{$zita_theme_clr}}
 .cart-contents .cart-crl{background:{$zita_theme_clr}}.cart-crl:before{border-color:{$zita_theme_clr}}
 .woocommerce #respond input#submit.alt.disabled, 
 .woocommerce #respond input#submit.alt.disabled:hover, 
@@ -264,7 +264,7 @@ endif;
 $zita_scroll_to_top_option = get_theme_mod('zita_scroll_to_top_option','right');
 $zita_scroll_to_top_icon_radius = get_theme_mod('zita_scroll_to_top_icon_radius','2');
 $zita_scroll_to_top_icon_clr = get_theme_mod('zita_scroll_to_top_icon_clr','#fff');
-$zita_scroll_to_top_icon_bg_clr = get_theme_mod('zita_scroll_to_top_icon_bg_clr','#006799');
+$zita_scroll_to_top_icon_bg_clr = get_theme_mod('zita_scroll_to_top_icon_bg_clr');
 $zita_scroll_to_top_icon_hvr_clr = get_theme_mod('zita_scroll_to_top_icon_hvr_clr','#fff');
 $zita_scroll_to_top_icon_bghvr_clr = get_theme_mod('zita_scroll_to_top_icon_bghvr_clr','#015782');
 if($zita_scroll_to_top_option=='left'){

@@ -172,10 +172,10 @@ class zita_thMetaDataClass {
         echo '<div class="zita-post-meta-box">';
  
         foreach ($this->_meta_box['fields'] as $field) {
-            
+            if(isset($field)){
             // get current post meta data
             $meta = get_post_meta($post->ID, $field['id'], true);
- 
+
             echo '<div class="'.esc_attr($field['id']).'">',
                     '<p class="post-attributes-label"><strong for="', esc_attr($field['id']), '">', esc_html($field['name']), '</strong></p>',
                     '<p class="post-attributes-setting">';
@@ -214,6 +214,7 @@ class zita_thMetaDataClass {
             }
             echo     '<p>',
                 '</div>';
+            }
         }
  
         echo '</div>';

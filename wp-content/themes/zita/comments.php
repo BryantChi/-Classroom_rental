@@ -45,7 +45,12 @@ if ( post_password_required() ) {
 			?>
 		</h2><!-- .comments-title -->
 
-		<?php the_comments_navigation(); ?>
+		<div class="thunk-comment-paginate">
+			    <?php 
+			    //Create pagination links for the comments on the current post.
+			    paginate_comments_links();
+			    ?> 
+		</div>
 
 		<ol class="comment-list">
 			<?php
@@ -56,7 +61,7 @@ if ( post_password_required() ) {
 			?>
 		</ol><!-- .comment-list -->
 
-		<?php the_comments_navigation();
+		<?php 
 
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() ) : ?>
